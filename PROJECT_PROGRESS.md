@@ -80,10 +80,28 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 | Kommunikation | 3 | Sprachen & Interkulturalität |
 | Projekt 1 | 3 | Projekte & Praxis |
 
-**Hauptstudium (laufend, Semester 5)**
-- Cybersecurity (3 ECTS) — abgeschlossen, Semester 4, enthielt OWASP Juice Shop
-- Web Engineering (3 ECTS) — laufend, Kontext dieses Portfolios
-- Weitere belegte Module: noch zu klären
+**Hauptstudium (Semester 5 laufend) — abgeschlossene Module**
+
+| Modul | ECTS | Themenbereich |
+|---|---|---|
+| Prozessmanagement | 6 | Digital Business & AI |
+| IT Service Management | 3 | Digital Business & AI |
+| Economics | 3 | Business & Economics |
+| Sustainable Business | 3 | Business & Economics |
+| Software Engineering | 6 | Information Technology |
+| Cybersecurity | 3 | Information Technology (enthielt OWASP Juice Shop) |
+| Projekt 2 | 6 | Projekte & Praxis |
+
+**Vertiefung**
+| Modul | ECTS | Bemerkung |
+|---|---|---|
+| Project Management & Agility | offen | Fixe Vertiefung |
+| Business Gaming mit TOPSIM | offen | Zuordnung im Curriculum noch zu klären |
+
+**Laufend:** Web Engineering (3 ECTS) — Kontext dieses Portfolios
+
+Damit sind mindestens 90 ECTS abgeschlossen (60 Grundstudium + 30 Hauptstudium,
+Vertiefungsmodule noch nicht eingerechnet).
 
 **Sprachen:** Deutsch (Muttersprache), Französisch (Muttersprache), Englisch B2
 
