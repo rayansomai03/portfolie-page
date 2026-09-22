@@ -126,10 +126,26 @@ Browserleisten sind entfernt. Der eingeloggte Zustand („Logout" in der Navigat
 bleibt sichtbar — er belegt die Authentifizierung und ist deshalb erwünscht.
 Die Screenshots sind unabhängig davon, ob das GitLab-Deployment bestehen bleibt.
 
-**Links** (vor Verlinkung im Portfolio auf öffentliche Erreichbarkeit prüfen)
-- Repository: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/mysterybox
-- Dokumentation: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/
-- Live-Demo: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/demo/
+**Links — nicht öffentlich** (geprüft 22.09.2026 im InPrivate-Fenster)
+
+Sowohl das Repository als auch GitLab Pages leiten auf die BFH-Anmeldung um.
+Pages Access Control ist auf Projektmitglieder beschränkt. **Keiner dieser Links
+wird im Portfolio verlinkt** — ein Link auf eine Login-Maske wirkt schlechter als
+gar kein Link.
+
+- Repository (intern): https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/mysterybox
+- Dokumentation (intern): https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/
+- Demo (intern): https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/demo/
+
+**Darstellung im Portfolio:** Screenshots plus Beschreibung des Stacks. Der Hinweis,
+dass das Projekt auf der internen Infrastruktur der BFH liegt, ist nachvollziehbar
+und muss nicht kaschiert werden.
+
+**Optional für später** (nicht eingeplant, frühestens Oktober): eigene Kopie des
+Frontends auf GitHub veröffentlichen und über Netlify oder Cloudflare Pages
+deployen. Voraussetzungen: Zugangsdaten vorher aus dem Code und der Git-History
+entfernen, Einverständnis des Teams einholen, und prüfen, ob das Frontend ohne das
+Strapi-Backend lauffähig ist.
 
 **Eigener Anteil**
 

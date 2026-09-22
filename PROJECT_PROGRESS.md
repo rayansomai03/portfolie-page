@@ -131,9 +131,9 @@ Vertiefungsmodule noch nicht eingerechnet).
    Leistungsbereiche formuliert, nicht als Aussage über die übrigen Teammitglieder.
    Offen: welche Bereiche genau (Frontend, Service-Layer, Backend, CI/CD, Doku).
    Aus der GitLab-Commit-Historie von `@somar1` ablesbar.
-3. **MysteryBox: Erreichbarkeit der Links** — sind GitLab-Repository, Doku und
-   Demo ohne BFH-Login erreichbar? Im privaten Browserfenster prüfen, bevor wir
-   verlinken. Tote Links im Portfolio wirken schlechter als keine Links.
+3. _(geschlossen)_ MysteryBox-Links sind nicht öffentlich — Repository und GitLab
+   Pages verlangen beide eine BFH-Anmeldung. Im Portfolio erscheinen deshalb
+   Screenshots und Beschreibung statt Links.
 4. **Projekt 2 (6 ECTS)** — noch keine Angaben vorhanden
 5. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
    Fahrgemeinschafts-App zu bestimmten Modulen, z. B. Projekt 1?
