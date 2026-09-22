@@ -83,7 +83,7 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 
 | Modul | ECTS | Themenbereich |
 |---|---|---|
-| Digital Enterprise | 6 | Digital Business & AI |
+| Digital Enterprise | 6 | Digital Business & AI — Projekt SmartHealth |
 | Requirements Engineering | 6 | Digital Business & AI — Projekt Fahrgemeinschafts-App |
 | Business Information Systems | 6 | Digital Business & AI |
 | Grundlagen Digital Business & AI | 6 | Digital Business & AI |
@@ -126,7 +126,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 | Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung. Gelöst: Injection (SQL, NoSQL, XSS), XXE, Broken Access Control (IDOR, Path Traversal), Auth-Bypass (JWT, TOTP), RCE-nahe Exploits, Steganografie |
 | MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Umsetzung laut Rayan praktisch vollständig von ihm erbracht |
 | Bärnway | **Konzept + technisches Design** | Projekt 2 / Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Rayan verantwortete die technische Seite: Architektur, Strapi-Datenmodelle, REST-Endpunkte, Jupyter-Notebook-PoC (Haversine, CO₂), multikriterieller Routing-Algorithmus, Figma-Prototyp und Projektsteuerung. Datenschutz-Entscheidung gegen GPS-Tracking |
-| SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
+| SmartHealth | Konzept & Analyse | Digital Enterprise, Grundstudium | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HypeWear | Projektmanagement | Projekt 1 (WPR1), FS 2025, Viererteam | 38-seitiger Projektauftrag für eine Trend-Shopping-Plattform: Projektstrukturplan, Arbeitspakete, Termin-, Ressourcen- und Kostenplanung, Stakeholder- und Risikoanalyse, Wirtschaftlichkeit. Budget 195'100 CHF, 18 Monate |
 | MedFlow AI | Prozessanalyse | Prozessmanagement (WPRO), HS 2025, Zweierteam | KI-gestützte Erstellung von OP-Berichten in einer Arztpraxis. BPMN-2.0-Modellierung mit vier Lanes, Stakeholder-Interviews, Wertschöpfungsanalyse, IST/SOLL-Vergleich unter Schweizer DSG |
 | Fahrgemeinschafts-App | Requirements Engineering | Modul Requirements Engineering, Grundstudium, Teamarbeit | Vollständige Systemanforderungs-Spezifikation nach HERMES-Struktur: Situationsanalyse, morphologischer Kasten mit drei bewerteten Varianten, Use Cases, Satzschablone, User Stories, UML-Diagramme, ISDS-Konzept. Eigener Anteil noch zu bestätigen — die Use Cases sind einem Teammitglied zugeschrieben |
@@ -154,9 +154,11 @@ Vertiefungsmodule noch nicht eingerechnet).
    Offen: Screenshots als Sicherung im Repository.
 6. _(geschlossen)_ Projekt 2 ist identisch mit dem Modul Business Case Study
    (WPR2 / BBCS) — das Projekt darin war Bärnway.
-7. **Zuordnung Schulprojekte → Module** — HypeWear → Projekt 1 (WPR1),
+7. _(geschlossen)_ Modulzuordnung vollständig: HypeWear → Projekt 1 (WPR1),
    MedFlow AI → Prozessmanagement (WPRO), Fahrgemeinschafts-App →
-   Requirements Engineering. Offen bleibt nur noch **SmartHealth**.
+   Requirements Engineering, SmartHealth → Digital Enterprise,
+   Bärnway → Projekt 2 / Business Case Study, MysteryBox → Software Engineering,
+   Juice-Shop-CTF → Cybersecurity, Skribble-Analyse → Sustainable Business.
    Hinweis: SmartHealth (KI-gestützte Terminbuchung) ist nicht identisch mit
    MedFlow AI (KI-gestützte OP-Berichte) — zwei verschiedene Projekte.
 10. **Anteile in Teamarbeiten** — bei HypeWear (vier Autoren) und der
