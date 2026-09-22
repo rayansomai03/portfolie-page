@@ -20,11 +20,15 @@
 - Barrierefreiheit von Beginn an: Skip-Link, sichtbarer Fokusrahmen,
   `prefers-reduced-motion`
 
-**Noch offen in Woche 1:** GitHub Pages aktivieren (muss Rayan im Repository tun).
+- **GitHub Pages aktiviert — die Seite ist öffentlich erreichbar:**
+  https://rayansomai03.github.io/portfolie-page/
+  Damit ist das K.-o.-Kriterium der Bewertung bereits in Woche 1 erfüllt.
+
+**Woche 1 ist abgeschlossen.**
 
 ## In Bearbeitung
 
-- Veröffentlichung über GitHub Pages
+- Woche 2: Designsystem und Navigation
 
 ## Verifizierte Inhaltsdaten
 
@@ -116,7 +120,7 @@ HTTP 200 ausgeliefert.
 
 ## Nächster geplanter Entwicklungsschritt
 
-1. **GitHub Pages aktivieren** — K.-o.-Kriterium, muss Rayan im Repository vornehmen
-2. **Woche 2 (28.09.–04.10.):** Designsystem ausbauen (Favicon, Typografie festlegen),
-   Navigation mit echtem Mobilmenü inklusive JavaScript, CSS in wiederverwendbare
-   Komponenten aufteilen
+**Woche 2 (28.09.–04.10.):** Designsystem ausbauen (Favicon, Typografie festlegen),
+Navigation mit echtem Mobilmenü inklusive JavaScript, CSS in wiederverwendbare
+Komponenten aufteilen. Das Mobilmenü schreibt Rayan selbst — erstes eigenes
+JavaScript im Projekt.

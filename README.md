@@ -3,7 +3,7 @@
 Interaktives Portfolio von **Rayan Somai**, Student der Wirtschaftsinformatik an der
 Berner Fachhochschule. Einzelarbeit im Modul *Web Engineering* (HS 2026).
 
-🔗 **Live:** _wird nach Aktivierung von GitHub Pages ergänzt_
+🔗 **Live:** https://rayansomai03.github.io/portfolie-page/
 
 ## Über das Projekt
 
