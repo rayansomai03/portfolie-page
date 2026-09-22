@@ -98,6 +98,8 @@ Keine dieser Fragen blockiert Woche 2.
 | 2026-09-22 | Berufserfahrung wird nicht dargestellt | Entscheidung von Rayan; Fokus auf IT-Kompetenz |
 | 2026-09-22 | Woche 1 ohne JavaScript, Navigation rein mit CSS | Kein defektes Zwischenstadium; echtes Mobilmenü folgt geplant in Woche 2 |
 | 2026-09-22 | Platzhalter-Sektionen zeigen offen die geplante Woche | Ehrlicher als leere Bereiche und macht den Fortschritt für Besucher sichtbar |
+| 2026-09-22 | Commit-Autorschaft auf Rayan korrigiert, Claude bleibt Co-Author | Die ersten vier Commits liefen versehentlich auf Claude; die Historie soll den eigenen Fortschritt belegen |
+| 2026-09-22 | Arbeitsweise ab Woche 2: gemischt nach Schwierigkeit | Einfachere Teile schreibt Rayan selbst, komplexe Teile entstehen mit Erklärung — Verständnis vor Tempo |
 
 ## Durchgeführte Tests
 
