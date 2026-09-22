@@ -112,6 +112,20 @@ Bemerkenswert für die Darstellung: Bei verweigertem Standortzugriff zeigt die A
 scheitern. Sichtbare Fehlerbehandlung mit sinnvollem Rückfall — genau das, was
 das Bewertungsraster unter „verständliche Fehlermeldungen" versteht.
 
+**Screenshots** (gesichert unter `assets/images/mysterybox/`)
+
+| Datei | Inhalt |
+|---|---|
+| `01-landing.webp` | Hero mit Gradient-Typografie |
+| `02-problem-loesung.webp` | Problem- und Lösungsabschnitt |
+| `03-features.webp` | Feature-Karten |
+| `04-api-demo.webp` | Live-API-Demos, AI Lifehack Generator |
+| `05-kontext-gamification.webp` | Kontext-Lifehack mit Fehlerfall, Fortschritt und Badges |
+
+Browserleisten sind entfernt. Der eingeloggte Zustand („Logout" in der Navigation)
+bleibt sichtbar — er belegt die Authentifizierung und ist deshalb erwünscht.
+Die Screenshots sind unabhängig davon, ob das GitLab-Deployment bestehen bleibt.
+
 **Links** (vor Verlinkung im Portfolio auf öffentliche Erreichbarkeit prüfen)
 - Repository: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/mysterybox
 - Dokumentation: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/
