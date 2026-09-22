@@ -57,7 +57,9 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 
 **Kompetenzen**
 - Methodik & Analyse: Systemanalyse & Requirements Engineering, Prozessmodellierung
-  (BPMN, UML), IT-Projektmanagement (Scrum, Agile), IT-Sicherheit & Compliance (ITIL)
+  (BPMN 2.0 mit Lanes, IST/SOLL, Wertschöpfungsanalyse — belegt durch MedFlow AI),
+  IT-Projektmanagement (Projektstrukturplan, Aufwandschätzung, Stakeholder- und
+  Risikoanalyse — belegt durch HypeWear), IT-Sicherheit & Compliance (ITIL)
 - Technisch: Datenbankmanagement (R/SQL), Softwareentwicklung (Python)
 - Green IT & nachhaltige Softwarearchitektur (Sustainable Business): Energy-aware
   software design, Datenlebenszyklus, modulare Architektur — jeweils mit Chancen
@@ -91,13 +93,13 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 | Softwareentwicklung | 6 | Information Technology |
 | English | 6 | Sprachen & Interkulturalität |
 | Kommunikation | 3 | Sprachen & Interkulturalität |
-| Projekt 1 | 3 | Projekte & Praxis |
+| Projekt 1 (WPR1) | 3 | Projekte & Praxis, FS 2025 — Projekt HypeWear |
 
 **Hauptstudium (Semester 5 laufend) — abgeschlossene Module**
 
 | Modul | ECTS | Themenbereich |
 |---|---|---|
-| Prozessmanagement | 6 | Digital Business & AI |
+| Prozessmanagement (WPRO) | 6 | Digital Business & AI, HS 2025 — Projekt MedFlow AI |
 | IT Service Management | 3 | Digital Business & AI |
 | Economics | 3 | Business & Economics |
 | Sustainable Business | 3 | Business & Economics — Gruppenanalyse Skribble AG, eigene Sektion „Digital Artefacts" |
@@ -125,7 +127,8 @@ Vertiefungsmodule noch nicht eingerechnet).
 | MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Umsetzung laut Rayan praktisch vollständig von ihm erbracht |
 | Bärnway | **Konzept + technisches Design** | Projekt 2 / Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Rayan verantwortete die technische Seite: Architektur, Strapi-Datenmodelle, REST-Endpunkte, Jupyter-Notebook-PoC (Haversine, CO₂), multikriterieller Routing-Algorithmus, Figma-Prototyp und Projektsteuerung. Datenschutz-Entscheidung gegen GPS-Tracking |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
-| HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
+| HypeWear | Projektmanagement | Projekt 1 (WPR1), FS 2025, Viererteam | 38-seitiger Projektauftrag für eine Trend-Shopping-Plattform: Projektstrukturplan, Arbeitspakete, Termin-, Ressourcen- und Kostenplanung, Stakeholder- und Risikoanalyse, Wirtschaftlichkeit. Budget 195'100 CHF, 18 Monate |
+| MedFlow AI | Prozessanalyse | Prozessmanagement (WPRO), HS 2025, Zweierteam | KI-gestützte Erstellung von OP-Berichten in einer Arztpraxis. BPMN-2.0-Modellierung mit vier Lanes, Stakeholder-Interviews, Wertschöpfungsanalyse, IST/SOLL-Vergleich unter Schweizer DSG |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
 | Dieses Portfolio | Implementierung | Web Engineering, HS 2026 | Erste Webanwendung ohne Framework und in Einzelarbeit |
 
@@ -151,13 +154,28 @@ Vertiefungsmodule noch nicht eingerechnet).
    Offen: Screenshots als Sicherung im Repository.
 6. _(geschlossen)_ Projekt 2 ist identisch mit dem Modul Business Case Study
    (WPR2 / BBCS) — das Projekt darin war Bärnway.
-7. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
-   Fahrgemeinschafts-App zu bestimmten Modulen, z. B. Projekt 1?
+7. **Zuordnung Schulprojekte → Module** — HypeWear gehört zu Projekt 1 (WPR1),
+   MedFlow AI zu Prozessmanagement (WPRO). Offen bleiben **SmartHealth** und die
+   **Fahrgemeinschafts-App**. Hinweis: SmartHealth (KI-gestützte Terminbuchung) ist
+   nicht identisch mit MedFlow AI (KI-gestützte OP-Berichte) — zwei verschiedene
+   Projekte im Gesundheitsbereich.
+10. **Anteile in Teamarbeiten** — bei HypeWear (vier Autoren) ist unklar, welche
+   Kapitel von Rayan stammen. Ohne Zuordnung bleibt es ein Teamprojekt ohne
+   erkennbaren persönlichen Beitrag.
 8. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
 9. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
    und wirkt auf hochauflösenden Displays leicht unscharf. Original vorhanden?
 
 Keine dieser Fragen blockiert Woche 2.
+
+## Redaktionelle Festlegungen
+
+- **MedFlow AI wird anonymisiert dargestellt.** Die Präsentation nennt eine reale
+  Arztpraxis samt Arztnamen; die Hausarbeit anonymisiert korrekt. Das Portfolio
+  folgt der Hausarbeit: „eine chirurgische Arztpraxis mit fünf bis zehn
+  Mitarbeitenden". Weder Name noch Praxis erscheinen.
+- **Die 50–70 % Zeitersparnis sind eine Schätzung aus dem Konzept**, keine
+  gemessene Grösse. Im Portfolio entsprechend kennzeichnen.
 
 ## Handlungsbedarf ausserhalb dieses Repositories
 

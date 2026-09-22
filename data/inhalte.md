@@ -251,12 +251,71 @@ Aufzählung der eigenen Leistung ist stärker und belegbar.
 - Methoden & Werkzeuge: Fokus Datenschutz und Benutzerfreundlichkeit
 - Vorzeigbar:
 
-### HyperWear
-- Modul / Semester:
-- Aufgabe: E-Commerce-Konzept
-- Mein Beitrag:
-- Methoden & Werkzeuge: Projektplanung, Product Backlog
-- Vorzeigbar:
+### HypeWear — Plattform für virale Modetrends
+- Modul / Semester: **Projekt 1 (WPR1)**, Kompetenznachweis 1, eingereicht 21.05.2025
+- Experten: Prof. Dr. Anna Wiedemann, Olivier Marti
+- Team: Alex Bongarzone, Nico Rüttimann, Yasin Masrouhi, Rayan Somaï
+- Aufgabe: Projektauftrag für eine Plattform, die virale Modetrends aus TikTok,
+  Instagram und Pinterest erkennt, passende Produkte empfiehlt und direkt kaufbar macht
+
+**Art des Dokuments:** vollständiger Projektauftrag über 38 Seiten — kein Konzeptpapier,
+sondern eine klassische Projektmanagement-Arbeit mit:
+- Management Summary, Ausgangslage, Zielen und Leistungsumfang
+- Projektstrukturplan mit beschriebenen Arbeitspaketen
+- Ablauf-, Termin-, Ressourcen- und Kostenplanung
+- Stakeholder- und Risikoanalyse
+- Wirtschaftlichkeitsrechnung
+
+**Konkrete Zahlen:** Budget 195'100 CHF (155'100 Personal, 40'000 Sachmittel),
+Laufzeit 18 Monate, agil und phasenbasiert.
+
+**Kompetenz daraus:** IT-Projektmanagement mit Projektstrukturplan, Aufwandschätzung,
+Stakeholder- und Risikoanalyse — belegt den CV-Punkt „IT-Projektmanagement (Scrum, Agile)".
+
+**Noch offen:** Welche Kapitel stammen von dir? Bei vier Autoren wäre eine grobe
+Zuordnung hilfreich, sonst bleibt es beim Teamprojekt ohne persönlichen Anteil.
+
+### MedFlow AI — Prozessoptimierung durch KI in einer Arztpraxis
+- Modul / Semester: **Prozessmanagement (WPRO)**, Kompetenznachweis 1,
+  eingereicht 01.12.2025
+- Experten: Prof. Dr. Thiemo Wambsganss, Léane Wettstein
+- Team: Rayan Somaï, Yasin Masrouhi (nur zu zweit)
+- Aufgabe: Den Aufwand für die Erstellung von Operationsberichten in einer
+  chirurgischen Arztpraxis mit KI-gestützter Spracherkennung senken
+
+**Ausgangslage:** Nach jedem Eingriff diktiert der Arzt, die medizinische Assistenz
+überträgt das Diktat manuell in Word. 15–20 Minuten pro Bericht, mehrfach täglich,
+verteilt über Outlook, Word und Dateiablagen.
+
+**Methodik**
+- Stakeholder-Interviews mit vier Gruppen: Arzt, medizinische Assistenz,
+  Administration, IT
+- Prozesslandkarte und **BPMN-2.0-Modellierung** des IST-Prozesses mit vier Lanes
+  (Arzt, medizinische Assistenz, IT-Systeme, Archivierung)
+- Wertschöpfungsanalyse jedes Prozessschritts
+- Anforderungsanalyse mit Basisanforderungen
+- SOLL-Prozess, Machbarkeits- und Wirtschaftlichkeitsbetrachtung
+
+**Regulatorik:** Schweizer Datenschutzgesetz (DSG) und medizinrechtliche
+Anforderungen an die Verarbeitung von Gesundheitsdaten wurden als Rahmenbedingung
+berücksichtigt.
+
+**Ergebnis:** Geschätzte Zeitersparnis von 50–70 %. *Wichtig: eine Schätzung aus
+dem Konzept, keine gemessene Grösse — im Portfolio entsprechend kennzeichnen.*
+
+**Kompetenz daraus:** BPMN 2.0, IST/SOLL-Prozessanalyse, Stakeholder-Interviews,
+Anforderungserhebung im regulierten Umfeld — belegt den CV-Punkt
+„Prozessmodellierung (BPMN, UML)".
+
+**⚠️ Datenschutz:** Die Präsentation nennt „Praxis Dr. med. Raphael Wirth – Bern"
+namentlich. Die schriftliche Hausarbeit anonymisiert dagegen korrekt
+(„eine Praxis mit fünf bis zehn Mitarbeitenden"). **Im Portfolio wird die
+anonymisierte Variante verwendet** — eine reale Praxis samt Arztnamen gehört nicht
+auf eine öffentliche Seite, schon gar nicht in Verbindung mit einer Analyse ihrer
+internen Schwachstellen.
+
+**Vorzeigbar:** Hausarbeit (DOCX) und Präsentation (PPTX) vorhanden.
+Die BPMN-Diagramme wären als Bild wertvoll.
 
 ### Skribble AG — Nachhaltigkeitsanalyse
 - Modul / Semester: Sustainable Business (3 ECTS), Gruppe C
