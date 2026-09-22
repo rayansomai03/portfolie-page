@@ -100,8 +100,7 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 | Sustainable Business | 3 | Business & Economics |
 | Software Engineering | 6 | Information Technology |
 | Cybersecurity | 3 | Information Technology, FS 2026 — benotet über CTF-Wettbewerb |
-| Projekt 2 | 6 | Projekte & Praxis |
-| Business Case Study (WPR2 / BBCS) | offen | HS 2025 — Projekt Bärnway |
+| Projekt 2 — Business Case Study (WPR2 / BBCS) | 6 | Projekte & Praxis, HS 2025 — Projekt Bärnway |
 
 **Vertiefung**
 | Modul | ECTS | Bemerkung |
@@ -121,7 +120,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 |---|---|---|---|
 | Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung. Gelöst: Injection (SQL, NoSQL, XSS), XXE, Broken Access Control (IDOR, Path Traversal), Auth-Bypass (JWT, TOTP), RCE-nahe Exploits, Steganografie |
 | MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Umsetzung laut Rayan praktisch vollständig von ihm erbracht |
-| Bärnway | **Konzept + technisches Design** | Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Belegter eigener Beitrag: Figma-Prototyp und Trello-Steuerung. Technisches Konzept mit Strapi-Datenmodellen, REST-Endpunkten, Jupyter-Notebook-PoC (Haversine, CO₂) und multikriteriellem Routing-Algorithmus. Datenschutz-Entscheidung gegen GPS-Tracking |
+| Bärnway | **Konzept + technisches Design** | Projekt 2 / Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Belegter eigener Beitrag: Figma-Prototyp und Trello-Steuerung. Technisches Konzept mit Strapi-Datenmodellen, REST-Endpunkten, Jupyter-Notebook-PoC (Haversine, CO₂) und multikriteriellem Routing-Algorithmus. Datenschutz-Entscheidung gegen GPS-Tracking |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
@@ -145,8 +144,8 @@ Vertiefungsmodule noch nicht eingerechnet).
    Wirtschaftsinformatiker im Team liegt es nahe, steht aber nicht namentlich im
    Bericht. Figma-Prototyp und Trello sind namentlich belegt.
 5. **Figma-Prototyp** — Screenshots oder Exportlink vorhanden?
-6. **Projekt 2 (6 ECTS)** — weiterhin offen; Bärnway gehört zum Modul
-   Business Case Study, nicht zu Projekt 2
+6. _(geschlossen)_ Projekt 2 ist identisch mit dem Modul Business Case Study
+   (WPR2 / BBCS) — das Projekt darin war Bärnway.
 7. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
    Fahrgemeinschafts-App zu bestimmten Modulen, z. B. Projekt 1?
 8. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind

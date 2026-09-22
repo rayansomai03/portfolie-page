@@ -70,7 +70,8 @@ Eine Stunde damit würde ein bis zwei Vorgehensbeschreibungen wieder verfügbar 
 nice to have, nicht eingeplant.
 
 ### Bärnway — nutzerzentriertes Mobilitätskonzept für den Modal Shift in Bern
-- Modul / Semester: Business Case Study (WPR2 / BBCS), HS 2025, Gruppe 15
+- Modul / Semester: Projekt 2 — Business Case Study (WPR2 / BBCS), 6 ECTS,
+  HS 2025, Gruppe 15
 - Betreuung: Anja Habegger, BFH Departement Wirtschaft
 - Team (5 Personen): Gabriel Raphael Schüpbach, Natasa Rogers, Jana Lynn Begert,
   Inesa Hamza (alle BBA Betriebsökonomie) und Rayan Somaï (BWI)
