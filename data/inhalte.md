@@ -268,18 +268,31 @@ Aufzählung der eigenen Leistung ist stärker und belegbar.
 - Anforderungen zu Betriebskonzept, Systemarchitektur, Migrationskonzept und
   ISDS-Konzept — die Struktur folgt **HERMES**, das im Glossar auch genannt wird
 
-**Autorschaft — wichtig**
+**Autorschaft** (von Rayan bestätigt, 22.09.2026)
 
-Alle 13 detaillierten Einträge (UC-01 bis UC-07, US-01 bis US-03, QA-01 bis QA-03)
-tragen im Autorenfeld **Josias Odermatt**, ein Teammitglied. Rayans Name erscheint
-im Dokumenttext nicht; in den Dateieigenschaften ist er als letzter Bearbeiter
-eingetragen.
+Josias Odermatt zeichnet die 13 detaillierten Einträge: UC-01 bis UC-07,
+US-01 bis US-03 und QA-01 bis QA-03, also Use Cases, User Stories,
+Qualitätsanforderungen und das Use-Case-Diagramm.
 
-Laut Lebenslauf war sein Beitrag „Systemanalyse & Lösungsdesign mit Fokus auf
-Datenschutz und Benutzerfreundlichkeit" — das entspräche den Kapiteln 3 und 4
-(Situationsanalyse, Lösungsentwicklung, morphologischer Kasten, Varianten) und
-passt genau in die Lücke, die Odermatts Kapitel lassen. **Von Rayan zu bestätigen,
-bevor etwas davon ins Portfolio geht.**
+**Alles Übrige stammt von Rayan:**
+- Management Summary, Ausgangslage
+- Situationsanalyse mit Mengengerüst, Datenbeständen, Stärken-/Schwächenanalyse
+- Kapitel Informationssicherheit und Datenschutz
+- Systemkontext und Kontextdiagramm
+- Lösungsentwicklung: Business Model Canvas, morphologischer Kasten,
+  drei Varianten samt Bewertung und begründeter Variantenwahl
+- System- und Produktziele, Grobanforderungen, UI-Skizze
+- Technische Spezifikation inklusive **UML-Klassendiagramm**
+
+**Screenshots** (gesichert unter `assets/images/fahrgemeinschaft/`)
+
+| Datei | Inhalt |
+|---|---|
+| `01-klassendiagramm.webp` | UML-Klassendiagramm: Nutzer, Fahrt, Mitfahranfrage, Bewertung, Chat — mit Attributen, Methoden, Multiplizitäten und Rollennamen |
+| `02-business-model-canvas.webp` | Ausgefülltes Business Model Canvas |
+
+Das Use-Case-Diagramm wurde **bewusst nicht** übernommen — es gehört zu Odermatts
+Kapitel und darf nicht als eigene Leistung erscheinen.
 
 **Anmerkung:** In einer Tabelle stehen noch Beispielinhalte aus der Vorlage
 („Jede Abteilung kann ihre Events selbständig organisieren"). Falls das Dokument
@@ -309,8 +322,10 @@ Laufzeit 18 Monate, agil und phasenbasiert.
 **Kompetenz daraus:** IT-Projektmanagement mit Projektstrukturplan, Aufwandschätzung,
 Stakeholder- und Risikoanalyse — belegt den CV-Punkt „IT-Projektmanagement (Scrum, Agile)".
 
-**Noch offen:** Welche Kapitel stammen von dir? Bei vier Autoren wäre eine grobe
-Zuordnung hilfreich, sonst bleibt es beim Teamprojekt ohne persönlichen Anteil.
+**Eigener Anteil** (von Rayan bestätigt, 22.09.2026): Die **Projektidee stammt von
+ihm**, und er war an allen Arbeitspaketen beteiligt. Keine namentliche Kapitel-
+zuordnung im Dokument — im Portfolio wird deshalb „Projektidee und Mitarbeit in
+allen Arbeitspaketen" formuliert, nicht die alleinige Autorschaft einzelner Teile.
 
 ### MedFlow AI — Prozessoptimierung durch KI in einer Arztpraxis
 - Modul / Semester: **Prozessmanagement (WPRO)**, Kompetenznachweis 1,

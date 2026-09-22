@@ -127,9 +127,9 @@ Vertiefungsmodule noch nicht eingerechnet).
 | MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Umsetzung laut Rayan praktisch vollständig von ihm erbracht |
 | Bärnway | **Konzept + technisches Design** | Projekt 2 / Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Rayan verantwortete die technische Seite: Architektur, Strapi-Datenmodelle, REST-Endpunkte, Jupyter-Notebook-PoC (Haversine, CO₂), multikriterieller Routing-Algorithmus, Figma-Prototyp und Projektsteuerung. Datenschutz-Entscheidung gegen GPS-Tracking |
 | SmartHealth | Konzept & Analyse | Digital Enterprise, Grundstudium | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
-| HypeWear | Projektmanagement | Projekt 1 (WPR1), FS 2025, Viererteam | 38-seitiger Projektauftrag für eine Trend-Shopping-Plattform: Projektstrukturplan, Arbeitspakete, Termin-, Ressourcen- und Kostenplanung, Stakeholder- und Risikoanalyse, Wirtschaftlichkeit. Budget 195'100 CHF, 18 Monate |
+| HypeWear | Projektmanagement | Projekt 1 (WPR1), FS 2025, Viererteam — Projektidee von Rayan, Mitarbeit in allen Arbeitspaketen | 38-seitiger Projektauftrag für eine Trend-Shopping-Plattform: Projektstrukturplan, Arbeitspakete, Termin-, Ressourcen- und Kostenplanung, Stakeholder- und Risikoanalyse, Wirtschaftlichkeit. Budget 195'100 CHF, 18 Monate |
 | MedFlow AI | Prozessanalyse | Prozessmanagement (WPRO), HS 2025, Zweierteam | KI-gestützte Erstellung von OP-Berichten in einer Arztpraxis. BPMN-2.0-Modellierung mit vier Lanes, Stakeholder-Interviews, Wertschöpfungsanalyse, IST/SOLL-Vergleich unter Schweizer DSG |
-| Fahrgemeinschafts-App | Requirements Engineering | Modul Requirements Engineering, Grundstudium, Teamarbeit | Vollständige Systemanforderungs-Spezifikation nach HERMES-Struktur: Situationsanalyse, morphologischer Kasten mit drei bewerteten Varianten, Use Cases, Satzschablone, User Stories, UML-Diagramme, ISDS-Konzept. Eigener Anteil noch zu bestätigen — die Use Cases sind einem Teammitglied zugeschrieben |
+| Fahrgemeinschafts-App | Requirements Engineering | Modul Requirements Engineering, Grundstudium, Teamarbeit | Systemanforderungs-Spezifikation nach HERMES-Struktur. Eigener Anteil: Situationsanalyse, Datenschutzkapitel, Systemkontext, Business Model Canvas, morphologischer Kasten mit drei bewerteten Varianten, Grobanforderungen und UML-Klassendiagramm. Use Cases und User Stories stammen von einem Teammitglied |
 | Dieses Portfolio | Implementierung | Web Engineering, HS 2026 | Erste Webanwendung ohne Framework und in Einzelarbeit |
 
 ## Offene Fragen an Rayan
@@ -161,10 +161,9 @@ Vertiefungsmodule noch nicht eingerechnet).
    Juice-Shop-CTF → Cybersecurity, Skribble-Analyse → Sustainable Business.
    Hinweis: SmartHealth (KI-gestützte Terminbuchung) ist nicht identisch mit
    MedFlow AI (KI-gestützte OP-Berichte) — zwei verschiedene Projekte.
-10. **Anteile in Teamarbeiten** — bei HypeWear (vier Autoren) und der
-   Fahrgemeinschafts-App (Use Cases von Josias Odermatt gezeichnet) ist Rayans
-   Anteil nicht aus den Dokumenten ablesbar. Ohne Zuordnung bleiben es
-   Teamprojekte ohne erkennbaren persönlichen Beitrag.
+10. _(geschlossen)_ Anteile in Teamarbeiten geklärt: Bei der Fahrgemeinschafts-App
+   stammt alles ausser Use Cases, User Stories und Qualitätsanforderungen von Rayan.
+   Bei HypeWear stammt die Projektidee von ihm, mit Mitarbeit in allen Arbeitspaketen.
 8. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
 9. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
    und wirkt auf hochauflösenden Displays leicht unscharf. Original vorhanden?
