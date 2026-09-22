@@ -1,0 +1,386 @@
+/* =========================================================
+   Design Tokens
+   Zentrale Werte für Farben, Abstände und Typografie.
+   Änderungen hier wirken sich auf die ganze Seite aus.
+   ========================================================= */
+:root {
+  --color-bg: #070b14;
+  --color-bg-soft: #0b1120;
+  --color-surface: rgba(255, 255, 255, 0.04);
+  --color-border: rgba(255, 255, 255, 0.09);
+
+  --color-text: #e8ecf5;
+  --color-text-muted: #97a3b8;
+
+  --accent-blue: #3b82f6;
+  --accent-violet: #8b5cf6;
+  --accent-cyan: #22d3ee;
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --container-width: 1080px;
+}
+
+/* =========================================================
+   Reset & Basis
+   ========================================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  /* Zwei weiche Farbverläufe als Hintergrundstimmung */
+  background-image:
+    radial-gradient(ellipse 80% 55% at 15% -10%, rgba(59, 130, 246, 0.18), transparent),
+    radial-gradient(ellipse 70% 50% at 90% 0%, rgba(139, 92, 246, 0.14), transparent);
+  background-repeat: no-repeat;
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sichtbarer Fokusrahmen für Tastaturbedienung */
+:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  margin: 0 0 var(--space-md);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+  /* 16px Seitenabstand, damit auf dem Handy nichts am Rand klebt */
+  padding-inline: var(--space-md);
+}
+
+/* Link, der nur bei Tastaturnavigation sichtbar wird */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: var(--space-md);
+  top: var(--space-md);
+  z-index: 10;
+  padding: var(--space-xs) var(--space-md);
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+/* =========================================================
+   Kopfbereich & Navigation
+   ========================================================= */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: rgba(7, 11, 20, 0.72);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding-block: var(--space-sm);
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--color-text);
+  background: linear-gradient(120deg, var(--accent-cyan), var(--accent-violet));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__list a {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.nav__list a:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.hero {
+  padding-block: var(--space-xl);
+}
+
+.hero__inner {
+  display: grid;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.hero__eyebrow {
+  margin: 0 0 var(--space-sm);
+  color: var(--accent-cyan);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  /* clamp() skaliert die Schrift stufenlos zwischen Handy und Desktop */
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  background: linear-gradient(120deg, #ffffff 20%, var(--accent-cyan) 70%, var(--accent-violet));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__lead {
+  max-width: 54ch;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.hero__portrait {
+  margin: 0;
+  justify-self: start;
+}
+
+.hero__portrait img {
+  width: min(240px, 60vw);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+.button {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-weight: 600;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+.button--primary {
+  background: linear-gradient(120deg, var(--accent-blue), var(--accent-violet));
+  border-color: transparent;
+  color: #ffffff;
+}
+
+/* =========================================================
+   Sektionen
+   ========================================================= */
+.section {
+  padding-block: var(--space-xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.section__title {
+  font-size: clamp(1.6rem, 4vw, 2.25rem);
+}
+
+.section__intro,
+.prose p {
+  max-width: 62ch;
+  color: var(--color-text-muted);
+}
+
+/* =========================================================
+   Faktenliste (Über mich)
+   ========================================================= */
+.facts {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-lg) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fact {
+  padding: var(--space-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.fact__label {
+  display: block;
+  color: var(--accent-cyan);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fact__value {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* =========================================================
+   Platzhalter für Funktionen, die noch entstehen
+   ========================================================= */
+.placeholder {
+  margin-top: var(--space-lg);
+  padding: var(--space-lg);
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.placeholder p {
+  margin: var(--space-sm) 0 0;
+  color: var(--color-text-muted);
+}
+
+.placeholder__badge {
+  display: inline-block;
+  padding: 0.25rem var(--space-sm);
+  border-radius: 999px;
+  background: rgba(139, 92, 246, 0.16);
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  color: #c4b5fd;
+  font-size: 0.8rem;
+}
+
+/* =========================================================
+   Kontakt
+   ========================================================= */
+.contact-list {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-lg) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-link {
+  display: block;
+  padding: var(--space-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-link:hover {
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.contact-link__label {
+  display: block;
+  color: var(--accent-cyan);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contact-link__value {
+  /* Lange Adressen dürfen umbrechen statt die Seite zu verbreitern */
+  overflow-wrap: anywhere;
+}
+
+/* =========================================================
+   Fussbereich
+   ========================================================= */
+.site-footer {
+  padding-block: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   Responsive: ab Tablet zweispaltige Layouts
+   ========================================================= */
+@media (min-width: 720px) {
+  .hero__inner {
+    grid-template-columns: 1fr auto;
+  }
+
+  .facts,
+  .contact-list {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+/* =========================================================
+   Barrierefreiheit: Animationen auf Wunsch abschalten
+   ========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

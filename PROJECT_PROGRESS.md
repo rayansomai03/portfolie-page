@@ -4,17 +4,27 @@
 > Der geplante Verlauf steht in [`ROADMAP.md`](./ROADMAP.md).
 
 **Letzte Aktualisierung:** 22. September 2026
-**Aktuelle Entwicklungswoche:** Woche 1 von 12 (Projektstart)
+**Aktuelle Entwicklungswoche:** Woche 1 von 12
 **Abgabe:** 11. Dezember 2026 — bestätigt
 
 ## Abgeschlossene Funktionen
 
-- _Noch keine._ Das Repository enthält bisher nur eine Platzhalter-`readme.md`
-  (Commit `a022987`) sowie die Planungsdokumente.
+**Woche 1 — Projektstart**
+- Projektstruktur angelegt (`css/`, `assets/images/`)
+- `index.html`: semantisches Grundgerüst mit Navigation, Hero, Über mich,
+  drei Funktions-Sektionen als Platzhalter, Kontakt und Footer
+- `css/main.css`: Design-Tokens (Farben, Abstände, Radien), Basis-Styles,
+  dunkles Theme, Komponenten für Buttons, Karten und Kontaktlinks
+- Portrait aus dem Lebenslauf extrahiert und als JPEG optimiert (205 KB → 33 KB)
+- `README.md` mit echtem Projektinhalt ersetzt die Platzhalter-`readme.md`
+- Barrierefreiheit von Beginn an: Skip-Link, sichtbarer Fokusrahmen,
+  `prefers-reduced-motion`
+
+**Noch offen in Woche 1:** GitHub Pages aktivieren (muss Rayan im Repository tun).
 
 ## In Bearbeitung
 
-- Aufbereitung der persönlichen Daten für die gemeinsame Datenbasis
+- Veröffentlichung über GitHub Pages
 
 ## Verifizierte Inhaltsdaten
 
@@ -25,8 +35,9 @@ Nichts davon ist erfunden oder ergänzt.
 
 **Öffentliche Kontaktdaten (freigegeben)**
 - E-Mail: rayan.somai@hotmail.com
-- GitHub: `rayansomai03`
-- LinkedIn: vorhanden — URL ausstehend
+- GitHub: [@rayansomai03](https://github.com/rayansomai03)
+- LinkedIn: https://www.linkedin.com/in/rayansomai/
+- Portrait aus dem Lebenslauf: freigegeben
 
 Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlicht.
 
@@ -35,10 +46,10 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 |---|---|---|
 | 09/2024 – 2027 | Bachelor Wirtschaftsinformatik | BFH Bern |
 | 09/2023 – 2024 | Berufsmaturität Wirtschaft | BFB Biel |
-| bis 06/2023 | Handelsmittelschule | ESC La Neuveville |
+| 2020 – 06/2023 | Handelsmittelschule | ESC La Neuveville |
 
 **Berufserfahrung**
-- Wird im Portfolio nicht dargestellt (auf Wunsch von Rayan entfernt).
+- Wird im Portfolio nicht dargestellt (Entscheidung von Rayan).
 
 **Kompetenzen**
 - Methodik & Analyse: Systemanalyse & Requirements Engineering, Prozessmodellierung
@@ -50,28 +61,29 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 **Sprachen:** Deutsch (Muttersprache), Französisch (Muttersprache), Englisch B2
 
 **Projekte & Module**
-| Projekt | Art | Inhalt |
-|---|---|---|
-| OWASP Juice Shop | Cybersecurity-Modul, praktisch | Ausnutzen von Schwachstellen einer bewusst verwundbaren Webanwendung |
-| SmartHealth | Konzept & Analyse | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
-| HyperWear | Konzept & Planung | E-Commerce-Konzept, Projektplanung, Product Backlog |
-| Fahrgemeinschafts-App | Analyse & Design | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
-| Dieses Portfolio | Implementierung | Erste eigene Webanwendung — Teil der Lebensreise |
+| Projekt | Art | Kontext | Inhalt |
+|---|---|---|---|
+| OWASP Juice Shop | Praktisch | BFH, Semester 4 | Ausnutzen von Schwachstellen einer bewusst verwundbaren Webanwendung |
+| SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
+| HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
+| Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
+| Dieses Portfolio | Implementierung | Web Engineering, HS 2026 | Erste eigene Webanwendung |
 
 ## Offene Fragen an Rayan
 
-1. **LinkedIn-URL** — für den Kontaktbereich (Woche 3)
-2. **ESC La Neuveville** — Startjahr? (Abschluss 06/2023 ist bekannt)
-3. **OWASP Juice Shop** — an welcher Schule, in welchem Semester, und welche
-   Schwachstellen hast du konkret gelöst? Gibt es eine Abgabe/Dokumentation dazu?
-4. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
-5. **Foto** — soll das Lebenslauf-Portrait auf die Seite?
+1. **OWASP Juice Shop** — welche Schwachstellen hast du konkret gelöst?
+   (Für die Projektdetailansicht in Woche 4. Ohne Angaben bleibt es bei der
+   allgemeinen Beschreibung — es wird nichts dazuerfunden.)
+2. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
+3. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
+   und wirkt auf hochauflösenden Displays leicht unscharf. Original vorhanden?
 
-Keine dieser Fragen blockiert Woche 1 oder 2.
+Keine dieser Fragen blockiert Woche 2.
 
 ## Bekannte Fehler
 
-- Keine.
+- Kein Favicon vorhanden (Browser fragt `/favicon.ico` an, erhält 404). Kosmetisch,
+  wird im Designsystem in Woche 2 ergänzt.
 
 ## Wichtige technische Entscheidungen
 
@@ -83,16 +95,26 @@ Keine dieser Fragen blockiert Woche 1 oder 2.
 | 2026-09-22 | Listenansicht der Landkarte als Pflichtbestandteil | Barrierefreiheit + Responsivität (15 Punkte) |
 | 2026-09-22 | Abgabe 11.12.2026 bestätigt → feature-complete bis 06.12. | Letzte Woche bleibt echter Puffer |
 | 2026-09-22 | Landkarte trennt Methodenkompetenz von Implementierungstechnologien | Bildet den realen Werdegang ehrlich ab |
-| 2026-09-22 | Berufserfahrung wird nicht dargestellt | Entscheidung von Rayan; Portfolio fokussiert auf IT-Kompetenz |
+| 2026-09-22 | Berufserfahrung wird nicht dargestellt | Entscheidung von Rayan; Fokus auf IT-Kompetenz |
+| 2026-09-22 | Woche 1 ohne JavaScript, Navigation rein mit CSS | Kein defektes Zwischenstadium; echtes Mobilmenü folgt geplant in Woche 2 |
+| 2026-09-22 | Platzhalter-Sektionen zeigen offen die geplante Woche | Ehrlicher als leere Bereiche und macht den Fortschritt für Besucher sichtbar |
 
 ## Durchgeführte Tests
 
-- Keine. Testinfrastruktur folgt, sobald testbare Logik existiert (geplant ab Woche 4).
+**22.09.2026 — Responsivitätstest (Chromium via Playwright)**
+
+| Viewport | Horizontale Scrollbar | Überlaufende Elemente | JS-Fehler |
+|---|---|---|---|
+| 375 × 812 (Mobile) | nein | keine | keine |
+| 768 × 1024 (Tablet) | nein | keine | keine |
+| 1440 × 900 (Desktop) | nein | keine | keine |
+
+Zusätzlich geprüft: `index.html`, `css/main.css` und das Portrait werden alle mit
+HTTP 200 ausgeliefert.
 
 ## Nächster geplanter Entwicklungsschritt
 
-**Woche 1 (22.–27.09.2026):**
-Ordnerstruktur anlegen, `README.md` mit echtem Inhalt, semantisches `index.html`,
-minimales Basis-CSS im dunklen Theme, GitHub Pages aktivieren und öffentliche URL prüfen.
-
-Die öffentliche URL ist K.-o.-Kriterium der Bewertung und hat Vorrang vor allen Features.
+1. **GitHub Pages aktivieren** — K.-o.-Kriterium, muss Rayan im Repository vornehmen
+2. **Woche 2 (28.09.–04.10.):** Designsystem ausbauen (Favicon, Typografie festlegen),
+   Navigation mit echtem Mobilmenü inklusive JavaScript, CSS in wiederverwendbare
+   Komponenten aufteilen
