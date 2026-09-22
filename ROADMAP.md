@@ -77,6 +77,14 @@ Dieses Portfolio ist das erste echte Webentwicklungsprojekt. Das ist keine Schw�
 sondern die Erzählung: Die Lebensreise endet dort, wo die Seite selbst entsteht.
 Es werden keine Projekte, Technologien oder Erfahrungen erfunden.
 
+**Jede Kompetenz wird belegt.** Das abgeschlossene Grundstudium (60 ECTS) liefert für
+jeden Kompetenzknoten eine nachvollziehbare Herkunft: „Requirements Engineering" ist
+kein Schlagwort, sondern ein bestandenes 6-ECTS-Modul. In der Entwickler-Landkarte
+bekommt deshalb jeder Kompetenzknoten eine Kante zu dem Modul oder Projekt, in dem
+die Kompetenz erworben wurde. Das unterscheidet die Landkarte von einer
+Selbsteinschätzung mit Fortschrittsbalken — und liefert gleichzeitig die
+Datendichte, die der Graph zum Funktionieren braucht.
+
 ## Technische Architektur
 
 | Bereich | Entscheidung | Begründung |

@@ -62,6 +62,29 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 - Web-Security: OWASP-Schwachstellen praktisch (Juice Shop)
 - Neu ab diesem Projekt: HTML, CSS, JavaScript, Git/GitHub, D3.js, GSAP
 
+**Abgeschlossenes Grundstudium (60 ECTS, BFH Wirtschaftsinformatik)**
+
+Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
+
+| Modul | ECTS | Themenbereich |
+|---|---|---|
+| Digital Enterprise | 6 | Digital Business & AI |
+| Requirements Engineering | 6 | Digital Business & AI |
+| Business Information Systems | 6 | Digital Business & AI |
+| Grundlagen Digital Business & AI | 6 | Digital Business & AI |
+| Accounting | 6 | Business & Economics |
+| Grundlagen BWL | 6 | Business & Economics |
+| Data Management & Data Analysis | 6 | Information Technology |
+| Softwareentwicklung | 6 | Information Technology |
+| English | 6 | Sprachen & Interkulturalität |
+| Kommunikation | 3 | Sprachen & Interkulturalität |
+| Projekt 1 | 3 | Projekte & Praxis |
+
+**Hauptstudium (laufend, Semester 5)**
+- Cybersecurity (3 ECTS) — abgeschlossen, Semester 4, enthielt OWASP Juice Shop
+- Web Engineering (3 ECTS) — laufend, Kontext dieses Portfolios
+- Weitere belegte Module: noch zu klären
+
 **Sprachen:** Deutsch (Muttersprache), Französisch (Muttersprache), Englisch B2
 
 **Projekte & Module**
@@ -79,7 +102,12 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
    (Für die Projektdetailansicht in Woche 4. Ohne Angaben bleibt es bei der
    allgemeinen Beschreibung — es wird nichts dazuerfunden.)
 2. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
-3. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
+3. **Hauptstudium** — welche Module aus Semester 3 und 4 sind bereits abgeschlossen?
+   (Für die Kompetenz-Herkunft in der Landkarte. Bekannt sind bisher nur
+   Cybersecurity und das laufende Web Engineering.)
+4. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
+   Fahrgemeinschafts-App zu bestimmten Modulen, z. B. Projekt 1?
+5. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
    und wirkt auf hochauflösenden Displays leicht unscharf. Original vorhanden?
 
 Keine dieser Fragen blockiert Woche 2.
