@@ -258,6 +258,37 @@ Aufzählung der eigenen Leistung ist stärker und belegbar.
 - Methoden & Werkzeuge: Projektplanung, Product Backlog
 - Vorzeigbar:
 
+### Skribble AG — Nachhaltigkeitsanalyse
+- Modul / Semester: Sustainable Business (3 ECTS), Gruppe C
+- Gegenstand: Skribble AG, Schweizer TrustTech-Scale-up für rechtsgültige
+  elektronische Signaturen (gegründet 2018, Zürich, rund 60 Mitarbeitende)
+- Team: Yasin Masrouhi, Nico Janick Rüttimann, Danijel Marjanovic,
+  Andy Minh Vu Dinh, Rayan Somaï
+
+**Rayans Sektion: „Digital Artefacts" (Folien 26–31, namentlich ausgewiesen)**
+
+Analyse der ökologischen Wirkung von Softwarearchitektur, jeweils mit Chancen
+*und* Risiken:
+
+| Thema | Chancen | Risiken |
+|---|---|---|
+| Energy-aware software design | weniger CPU-Zeit, Speicher und Netzverkehr pro Signatur; geringere Cloud-Kosten; bessere Performance | Refactoring-Aufwand; überoptimierter Code wird schwer wartbar; **Rebound-Effekt** — billigere Signaturen erhöhen das Gesamtvolumen und fressen die Einsparung auf |
+| Sustainable data lifecycle | Retention und Kompression senken Speicherbedarf; weniger Kosten; geringeres Datenschutzrisiko durch Löschen | falsche Aufbewahrungsregeln löschen rechtlich nötige Nachweise; Migrationsrisiko; Governance-Aufwand |
+| Open and modular architecture | längere Systemlebensdauer durch austauschbare Komponenten; keine Vendor-Lock-ins; Wiederverwendung | mehr Schnittstellen erhöhen Komplexität; **jede zusätzliche API ist Angriffsfläche**; Koordinationsaufwand |
+
+Bemerkenswert: Die Analyse benennt durchgehend auch die Gegenseite — Rebound-Effekt,
+Wartbarkeitsverlust durch Überoptimierung, Angriffsfläche durch Modularisierung.
+Das ist Abwägung statt Nachhaltigkeits-Marketing.
+
+**Kompetenz daraus:** Green IT und nachhaltige Softwarearchitektur.
+
+**Anschluss ans eigene Portfolio:** Dieselbe Denkweise ist in diesem Projekt
+bereits angewandt — kein Framework, optimierte Bilder (Portrait 205 KB → 33 KB),
+statisches Hosting, GitHub-API-Caching statt wiederholter Requests. Könnte im
+Portfolio als bewusste Entscheidung sichtbar gemacht werden.
+
+**Vorzeigbar:** Präsentation als PPTX vorhanden.
+
 ### Business Gaming mit TOPSIM
 - Modul / Semester:
 - Aufgabe:

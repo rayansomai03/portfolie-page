@@ -59,6 +59,9 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 - Methodik & Analyse: Systemanalyse & Requirements Engineering, Prozessmodellierung
   (BPMN, UML), IT-Projektmanagement (Scrum, Agile), IT-Sicherheit & Compliance (ITIL)
 - Technisch: Datenbankmanagement (R/SQL), Softwareentwicklung (Python)
+- Green IT & nachhaltige Softwarearchitektur (Sustainable Business): Energy-aware
+  software design, Datenlebenszyklus, modulare Architektur — jeweils mit Chancen
+  und Risiken inklusive Rebound-Effekt
 - UX & Prototyping (Bärnway, HS 2025): Figma High-Fidelity-Prototyp, Personas,
   Customer Journey Mapping, Retrospektiven, Trello
 - API- und Architekturdesign (Bärnway): REST-Datenmodelle, Jupyter-Notebook-PoC
@@ -97,7 +100,7 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 | Prozessmanagement | 6 | Digital Business & AI |
 | IT Service Management | 3 | Digital Business & AI |
 | Economics | 3 | Business & Economics |
-| Sustainable Business | 3 | Business & Economics |
+| Sustainable Business | 3 | Business & Economics — Gruppenanalyse Skribble AG, eigene Sektion „Digital Artefacts" |
 | Software Engineering | 6 | Information Technology |
 | Cybersecurity | 3 | Information Technology, FS 2026 — benotet über CTF-Wettbewerb |
 | Projekt 2 — Business Case Study (WPR2 / BBCS) | 6 | Projekte & Praxis, HS 2025 — Projekt Bärnway |
