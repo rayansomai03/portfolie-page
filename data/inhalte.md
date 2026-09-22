@@ -133,11 +133,14 @@ Damit ist Bärnway das einzige Projekt mit begehbarem Live-Artefakt. Trotzdem
 werden Screenshots im Repository abgelegt: Figma Sites lassen sich jederzeit
 unveröffentlichen, das Portfolio soll davon nicht abhängen.
 
-**Noch von Rayan zu bestätigen:**
-- Stammt das Kapitel „Technisches Konzept" von dir? Als einziger WI im Team liegt
-  das nahe, aber es steht nicht namentlich im Bericht.
-- Hast du das Jupyter Notebook geschrieben? Existiert es noch?
-- Gibt es Screenshots oder einen Exportlink des Figma-Prototyps?
+**Autorschaft** (von Rayan bestätigt, 22.09.2026)
+
+Das Kapitel „Technisches Konzept" stammt von Rayan. Zusammen mit dem namentlich
+belegten Figma-Prototyp und der Trello-Steuerung war er damit für die gesamte
+technische Seite des Projekts verantwortlich: Architektur, Datenmodellierung,
+API-Design, Proof of Concept und Prototyp.
+
+Offen (nicht blockierend): Existiert das Jupyter Notebook noch als Datei?
 
 ### MysteryBox — Zufällige Lifehacks auf Knopfdruck
 - Modul / Semester: Software Engineering (WSEG), Herbstsemester 2025, Semester 3

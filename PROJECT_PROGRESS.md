@@ -120,7 +120,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 |---|---|---|---|
 | Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung. Gelöst: Injection (SQL, NoSQL, XSS), XXE, Broken Access Control (IDOR, Path Traversal), Auth-Bypass (JWT, TOTP), RCE-nahe Exploits, Steganografie |
 | MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Umsetzung laut Rayan praktisch vollständig von ihm erbracht |
-| Bärnway | **Konzept + technisches Design** | Projekt 2 / Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Belegter eigener Beitrag: Figma-Prototyp und Trello-Steuerung. Technisches Konzept mit Strapi-Datenmodellen, REST-Endpunkten, Jupyter-Notebook-PoC (Haversine, CO₂) und multikriteriellem Routing-Algorithmus. Datenschutz-Entscheidung gegen GPS-Tracking |
+| Bärnway | **Konzept + technisches Design** | Projekt 2 / Business Case Study, HS 2025, Fünferteam | Mobilitätskonzept für den Modal Shift in Bern. Rayan verantwortete die technische Seite: Architektur, Strapi-Datenmodelle, REST-Endpunkte, Jupyter-Notebook-PoC (Haversine, CO₂), multikriterieller Routing-Algorithmus, Figma-Prototyp und Projektsteuerung. Datenschutz-Entscheidung gegen GPS-Tracking |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
@@ -139,10 +139,10 @@ Vertiefungsmodule noch nicht eingerechnet).
 3. _(geschlossen)_ MysteryBox-Links sind nicht öffentlich — Repository und GitLab
    Pages verlangen beide eine BFH-Anmeldung. Im Portfolio erscheinen deshalb
    Screenshots und Beschreibung statt Links.
-4. **Bärnway: Autorschaft bestätigen** — stammt das Kapitel „Technisches Konzept"
-   (20 Seiten) von dir, und hast du das Jupyter Notebook geschrieben? Als einziger
-   Wirtschaftsinformatiker im Team liegt es nahe, steht aber nicht namentlich im
-   Bericht. Figma-Prototyp und Trello sind namentlich belegt.
+4. _(geschlossen)_ Bärnway: Das technische Konzept stammt von Rayan. Damit
+   verantwortete er Architektur, Datenmodellierung, API-Design, Proof of Concept,
+   Figma-Prototyp und Projektsteuerung — die gesamte technische Seite.
+   Offen, aber unwichtig: Existiert das Jupyter Notebook noch als Datei?
 5. **Figma-Prototyp** — Link vorhanden und öffentlich:
    https://kit-adapt-81309158.figma.site/ — wird im Portfolio verlinkt.
    Offen: Screenshots als Sicherung im Repository.
