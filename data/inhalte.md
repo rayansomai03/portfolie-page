@@ -69,12 +69,52 @@ Juice Shop läuft lokal in wenigen Minuten (`docker run -p 3000:3000 bkimminich/
 Eine Stunde damit würde ein bis zwei Vorgehensbeschreibungen wieder verfügbar machen —
 nice to have, nicht eingeplant.
 
-### Projekt 2
-- Modul / Semester: Projekt 2 (6 ECTS)
-- Aufgabe:
-- Mein Beitrag:
-- Methoden & Werkzeuge:
-- Vorzeigbar:
+### Bärnway — nutzerzentriertes Mobilitätskonzept für den Modal Shift in Bern
+- Modul / Semester: Business Case Study (WPR2 / BBCS), HS 2025, Gruppe 15
+- Betreuung: Anja Habegger, BFH Departement Wirtschaft
+- Team (5 Personen): Gabriel Raphael Schüpbach, Natasa Rogers, Jana Lynn Begert,
+  Inesa Hamza (alle BBA Betriebsökonomie) und Rayan Somaï (BWI)
+  → Rayan war der einzige Wirtschaftsinformatiker im Team und damit die technische Rolle
+- Aufgabe: Digitale Anwendung, die Menschen zur häufigeren ÖV-Nutzung motiviert.
+  Zielgruppe sind bewusst jene, die den ÖV aus Gewohnheit oder Unsicherheit meiden.
+
+**Belegter eigener Beitrag** (im Bericht als Quelle ausgewiesen)
+- **Figma-Prototyp** — „Quelle: Figma, Somaï, Rayan Zineddine, 2025"
+- **Trello-Board** zur Projektsteuerung — „Quelle: Trello, Somaï, Rayan Zineddine, 2025"
+
+**Technisches Konzept** (20 Seiten im Produktbericht)
+- Zielarchitektur aus Präsentationsschicht, Strapi-Backend und geplantem Routing-Service
+- Datenmodelle für Trips, Mobility Services und User; REST-Endpunkte inkl. JSON-Beispielen
+- Geplante API-Anbindungen: Transport API / SBB, Bernmobil-Echtzeitdaten,
+  Publibike, E-Trottinett-Anbieter, Mobility Carsharing, GTFS
+- **Proof of Concept als Jupyter Notebook**: echte API-Abfrage, JSON-Verarbeitung,
+  Distanzberechnung über die Haversine-Formel, CO₂-Vergleich Auto (0.171 kg/km)
+  gegen ÖV (0.028 kg/km)
+- Multikriterieller Routing-Algorithmus: gewichteter Gesamtscore aus Reisezeit,
+  Umstiegen und CO₂-Ersparnis statt nur „schnellste Verbindung"
+- Ehrliche Einordnung der Umsetzungstiefe nach High/Mid/Low Fidelity
+- Benannte Limitationen: API-Rate-Limits, Authentifizierung, fehlende Echtzeit-Endpunkte,
+  ungetestete Fehlerbehandlung und Caching
+
+**Datenschutz als Designentscheidung**
+Nach dem Interview mit Pascal Mainini (Dozent BFH Technik und Informatik) wurde
+die Erfassungslogik neu ausgerichtet: **bewusst gegen automatische GPS-Überwachung**,
+stattdessen eine manuelle, datensparsame Lösung ohne vollständige Bewegungsprofile.
+
+**Methodik**
+Vier Sprints, agiles Vorgehen, Personas, Customer Journey Mapping,
+Segelboot-Retrospektive, 4L-Retrospektive, Figma, Trello.
+Experteninterviews: Sabrina Stöckli (Professorin für Social Marketing, BFH),
+Pascal Mainini (BFH Technik und Informatik), Yvonne Schönthal (Leiterin
+Unternehmensentwicklung, Bernmobil).
+
+**Vorzeigbar:** Schlussbericht und Produktbericht liegen als PDF vor.
+
+**Noch von Rayan zu bestätigen:**
+- Stammt das Kapitel „Technisches Konzept" von dir? Als einziger WI im Team liegt
+  das nahe, aber es steht nicht namentlich im Bericht.
+- Hast du das Jupyter Notebook geschrieben? Existiert es noch?
+- Gibt es Screenshots oder einen Exportlink des Figma-Prototyps?
 
 ### MysteryBox — Zufällige Lifehacks auf Knopfdruck
 - Modul / Semester: Software Engineering (WSEG), Herbstsemester 2025, Semester 3
