@@ -61,21 +61,29 @@ Der Lebenslauf zeigt Schwerpunkte in **Analyse, Konzeption und Datenbanken**
 Die drei Schulprojekte (SmartHealth, HyperWear, Fahrgemeinschafts-App) sind
 Konzept- und Analysearbeiten, keine Code-Repositories.
 
-Eine Ausnahme ist das **Cybersecurity-Modul mit OWASP Juice Shop**: dort wurden
-Schwachstellen einer bewusst verwundbaren Webanwendung praktisch ausgenutzt
-(u. a. XSS, SQL Injection, Broken Authentication). Das ist echte, praktische
-Web-Erfahrung — aus der Angreiferperspektive statt aus der Bauperspektive — und
-passt direkt zur Unterrichtseinheit „Sicherheit und Authentifizierung" vom 13.11.
-Dieses Modul gehört prominent in Landkarte und Lebensreise.
+**Der Lebenslauf ist jedoch unvollständig.** Zwei Module belegen substanzielle
+praktische Web-Erfahrung, die dort nicht auftaucht:
 
-Die Landkarte unterscheidet deshalb sauber zwischen:
+- **MysteryBox** (Software Engineering, HS 2025): Vue-3-SPA mit TypeScript,
+  Strapi-Backend, JWT-Authentifizierung, zwei externen REST-APIs und GitLab CI/CD.
+  Ein echtes Implementierungsprojekt im Viererteam.
+- **Cybersecurity-CTF** (FS 2026): Challenges aus zehn Schwachstellenkategorien am
+  OWASP Juice Shop — dieselbe Materie aus der Angreiferperspektive. Passt zur
+  Unterrichtseinheit „Sicherheit und Authentifizierung" vom 13.11.
+
+Die Erzählung ist damit nicht „Analyst lernt Webentwicklung", sondern:
+**jemand, der Systeme analysiert, sie gebaut hat und weiss, wie sie angegriffen
+werden.** Diese Kombination aus Konzeption, Implementierung und Sicherheit trägt
+das Portfolio.
+
+Die Landkarte unterscheidet entsprechend:
 
 - **Methoden- & Analysekompetenz** (Requirements Engineering, BPMN, UML, Scrum, ITIL)
-- **Technische Umsetzung** (Python, R, SQL — und ab jetzt HTML, CSS, JavaScript, Git)
+- **Technische Umsetzung** (Python, R, SQL, Vue, TypeScript, REST, CI/CD)
+- **Web-Security** (zehn Schwachstellenkategorien aus dem CTF)
 
-Dieses Portfolio ist das erste echte Webentwicklungsprojekt. Das ist keine Schwäche,
-sondern die Erzählung: Die Lebensreise endet dort, wo die Seite selbst entsteht.
-Es werden keine Projekte, Technologien oder Erfahrungen erfunden.
+Dieses Portfolio ist nicht das erste Webprojekt, sondern das erste **ohne Framework
+und in Einzelarbeit**. Es werden keine Projekte, Technologien oder Erfahrungen erfunden.
 
 **Jede Kompetenz wird belegt.** Das abgeschlossene Grundstudium (60 ECTS) liefert für
 jeden Kompetenzknoten eine nachvollziehbare Herkunft: „Requirements Engineering" ist

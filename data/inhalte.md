@@ -76,12 +76,39 @@ nice to have, nicht eingeplant.
 - Methoden & Werkzeuge:
 - Vorzeigbar:
 
-### Software Engineering
-- Modul / Semester: Software Engineering (6 ECTS)
-- Aufgabe:
-- Mein Beitrag:
-- Methoden & Werkzeuge (wurde hier programmiert? welche Sprache?):
-- Vorzeigbar:
+### MysteryBox — Zufällige Lifehacks auf Knopfdruck
+- Modul / Semester: Software Engineering (WSEG), Herbstsemester 2025, Semester 3
+- Team: Rayan Somai (@somar1), Yasin Masrouhi (@masry1), Nico (@dinha1), Andy (@ruttn3)
+- Aufgabe: Web-Applikation als Alternative zum ziellosen Scrollen — per Klick
+  kurze, sofort anwendbare Lifehacks. MVP mit Authentifizierung und
+  kontextabhängigen Inhalten.
+
+**Technischer Stack**
+- Frontend: Vue 3 (Composition API), TypeScript, Vite, Vue Router
+- Backend: Strapi Headless CMS, REST API, users-permissions, JWT
+- Infrastruktur: GitLab CI/CD, GitLab Pages, Bruno für API-Tests
+
+**Externe API-Integrationen**
+- ipapi.co — Standortermittlung
+- Open-Meteo — Wetterdaten
+- Daraus kontextabhängige Lifehacks („Es ist kalt bei dir — Heizkörper entlüften
+  spart Energie.")
+
+**Architektur & Qualität**
+- Service-Layer trennt API-Zugriffe von den Views
+- Qualitätskriterien nach arc42 / ISO 25010: Functional Suitability und
+  Operability (Pflicht), Usability und Modularity (selbstgewählt)
+- Single-Page-Application, dunkles UI mit Glassmorphism
+
+**Links** (vor Verlinkung im Portfolio auf öffentliche Erreichbarkeit prüfen)
+- Repository: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/mysterybox
+- Dokumentation: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/
+- Live-Demo: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/demo/
+
+**Noch von Rayan auszufüllen:**
+- **Was war dein Anteil im Viererteam?** Welche Dateien, Features oder Bereiche
+  hast du übernommen? Das ist die einzige offene Frage — ohne sie beschreibt das
+  Portfolio nur das Teamprojekt, nicht deinen Beitrag daran.
 
 ---
 

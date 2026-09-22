@@ -59,10 +59,14 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 - Methodik & Analyse: Systemanalyse & Requirements Engineering, Prozessmodellierung
   (BPMN, UML), IT-Projektmanagement (Scrum, Agile), IT-Sicherheit & Compliance (ITIL)
 - Technisch: Datenbankmanagement (R/SQL), Softwareentwicklung (Python)
+- Webentwicklung (Teamprojekt MysteryBox, HS 2025): Vue 3 mit Composition API,
+  TypeScript, Vite, Vue Router, Strapi Headless CMS, REST-APIs, JWT-Authentifizierung,
+  GitLab CI/CD, API-Testing mit Bruno, Qualitätskriterien nach arc42 / ISO 25010
 - Web-Security (praktisch, OWASP Juice Shop CTF): SQL Injection, NoSQL Injection,
   XSS, XXE, IDOR, Path Traversal, JWT-Manipulation, TOTP-Bypass, RCE-nahe Exploits,
   Steganografie
-- Neu ab diesem Projekt: HTML, CSS, JavaScript, Git/GitHub, D3.js, GSAP
+- Neu ab diesem Projekt: Vanilla HTML/CSS/JavaScript ohne Framework, Git/GitHub,
+  D3.js, GSAP
 
 **Abgeschlossenes Grundstudium (60 ECTS, BFH Wirtschaftsinformatik)**
 
@@ -111,26 +115,40 @@ Vertiefungsmodule noch nicht eingerechnet).
 | Projekt | Art | Kontext | Inhalt |
 |---|---|---|---|
 | Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung. Gelöst: Injection (SQL, NoSQL, XSS), XXE, Broken Access Control (IDOR, Path Traversal), Auth-Bypass (JWT, TOTP), RCE-nahe Exploits, Steganografie |
+| MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Eigener Anteil im Team noch zu klären |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
-| Dieses Portfolio | Implementierung | Web Engineering, HS 2026 | Erste eigene Webanwendung |
+| Dieses Portfolio | Implementierung | Web Engineering, HS 2026 | Erste Webanwendung ohne Framework und in Einzelarbeit |
 
 ## Offene Fragen an Rayan
 
 1. _(geschlossen)_ Cybersecurity-CTF: Vorgehen zu den einzelnen Challenges ist nicht
    mehr erinnerlich. Die Kategorien werden als Modulrückblick dargestellt, ohne
    Detailbeschreibungen einzelner Exploits.
-2. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
-3. **Hauptstudium** — welche Module aus Semester 3 und 4 sind bereits abgeschlossen?
-   (Für die Kompetenz-Herkunft in der Landkarte. Bekannt sind bisher nur
-   Cybersecurity und das laufende Web Engineering.)
-4. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
+2. **MysteryBox: eigener Anteil** — was hast du im Viererteam übernommen?
+   Ohne diese Angabe beschreibt das Portfolio ein Teamprojekt, aber nicht deinen
+   Beitrag. Das ist aktuell die wichtigste offene Frage.
+3. **MysteryBox: Erreichbarkeit der Links** — sind GitLab-Repository, Doku und
+   Demo ohne BFH-Login erreichbar? Im privaten Browserfenster prüfen, bevor wir
+   verlinken. Tote Links im Portfolio wirken schlechter als keine Links.
+4. **Projekt 2 (6 ECTS)** — noch keine Angaben vorhanden
+5. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
    Fahrgemeinschafts-App zu bestimmten Modulen, z. B. Projekt 1?
-5. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
+6. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
+7. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
    und wirkt auf hochauflösenden Displays leicht unscharf. Original vorhanden?
 
 Keine dieser Fragen blockiert Woche 2.
+
+## Handlungsbedarf ausserhalb dieses Repositories
+
+**MysteryBox-README enthält Zugangsdaten im Klartext.** Im Abschnitt „Strapi Admin
+Zugang" stehen E-Mail und Passwort eines Administratorkontos, versehen mit dem
+Hinweis „Anti-Pattern – nur für Dozierende". Laut README sind Dokumentation und
+Demo öffentlich zugänglich. Empfehlung: Zugangsdaten aus dem README entfernen,
+Passwort ändern und den Dozierenden den Zugang auf anderem Weg mitteilen.
+Betrifft das GitLab-Repository der BFH, nicht dieses Portfolio.
 
 ## Bekannte Fehler
 
