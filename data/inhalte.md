@@ -109,7 +109,14 @@ Experteninterviews: Sabrina Stöckli (Professorin für Social Marketing, BFH),
 Pascal Mainini (BFH Technik und Informatik), Yvonne Schönthal (Leiterin
 Unternehmensentwicklung, Bernmobil).
 
-**Vorzeigbar:** Schlussbericht und Produktbericht liegen als PDF vor.
+**Vorzeigbar**
+- **Figma-Prototyp, öffentlich erreichbar:** https://kit-adapt-81309158.figma.site/
+  (von Rayan als öffentlich bestätigt, 22.09.2026 — im Portfolio verlinkbar)
+- Schlussbericht und Produktbericht liegen als PDF vor
+
+Damit ist Bärnway das einzige Projekt mit begehbarem Live-Artefakt. Trotzdem
+werden Screenshots im Repository abgelegt: Figma Sites lassen sich jederzeit
+unveröffentlichen, das Portfolio soll davon nicht abhängen.
 
 **Noch von Rayan zu bestätigen:**
 - Stammt das Kapitel „Technisches Konzept" von dir? Als einziger WI im Team liegt

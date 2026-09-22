@@ -143,7 +143,9 @@ Vertiefungsmodule noch nicht eingerechnet).
    (20 Seiten) von dir, und hast du das Jupyter Notebook geschrieben? Als einziger
    Wirtschaftsinformatiker im Team liegt es nahe, steht aber nicht namentlich im
    Bericht. Figma-Prototyp und Trello sind namentlich belegt.
-5. **Figma-Prototyp** — Screenshots oder Exportlink vorhanden?
+5. **Figma-Prototyp** — Link vorhanden und öffentlich:
+   https://kit-adapt-81309158.figma.site/ — wird im Portfolio verlinkt.
+   Offen: Screenshots als Sicherung im Repository.
 6. _(geschlossen)_ Projekt 2 ist identisch mit dem Modul Business Case Study
    (WPR2 / BBCS) — das Projekt darin war Bärnway.
 7. **Zuordnung Schulprojekte → Module** — gehören SmartHealth, HyperWear und die
