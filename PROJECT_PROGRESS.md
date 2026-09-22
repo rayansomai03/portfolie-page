@@ -59,7 +59,9 @@ Telefonnummer und Wohnadresse aus dem Lebenslauf werden **nicht** veröffentlich
 - Methodik & Analyse: Systemanalyse & Requirements Engineering, Prozessmodellierung
   (BPMN, UML), IT-Projektmanagement (Scrum, Agile), IT-Sicherheit & Compliance (ITIL)
 - Technisch: Datenbankmanagement (R/SQL), Softwareentwicklung (Python)
-- Web-Security: OWASP-Schwachstellen praktisch (Juice Shop)
+- Web-Security (praktisch, OWASP Juice Shop CTF): SQL Injection, NoSQL Injection,
+  XSS, XXE, IDOR, Path Traversal, JWT-Manipulation, TOTP-Bypass, RCE-nahe Exploits,
+  Steganografie
 - Neu ab diesem Projekt: HTML, CSS, JavaScript, Git/GitHub, D3.js, GSAP
 
 **Abgeschlossenes Grundstudium (60 ECTS, BFH Wirtschaftsinformatik)**
@@ -108,7 +110,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 **Projekte & Module**
 | Projekt | Art | Kontext | Inhalt |
 |---|---|---|---|
-| Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung: Quiz-, Open- und OWASP-Top-10-Challenges an einer eigenen Juice-Shop-Instanz. Persönliche Ergebnisse noch ausstehend |
+| Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung. Gelöst: Injection (SQL, NoSQL, XSS), XXE, Broken Access Control (IDOR, Path Traversal), Auth-Bypass (JWT, TOTP), RCE-nahe Exploits, Steganografie |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
@@ -116,11 +118,10 @@ Vertiefungsmodule noch nicht eingerechnet).
 
 ## Offene Fragen an Rayan
 
-1. **Cybersecurity-CTF: eigene Ergebnisse** — welche OWASP-Challenges gelöst,
-   welche Punktzahl/Rang, Certificate of Engagement erhalten?
-   Der Modulaufbau ist dokumentiert, Rayans persönliche Leistung noch nicht.
-   Ohne Angaben beschreibt das Portfolio nur das Modul, nicht seine Ergebnisse —
-   es wird nichts dazuerfunden.
+1. **Cybersecurity-CTF: Vorgehen statt nur Kategorien** — für zwei bis drei der
+   zehn Kategorien je ein Satz zum konkreten Vorgehen. Eine Kategorieliste lässt
+   sich behaupten, ein Vorgehen nicht. Ausserdem offen: selbst gehostete oder
+   bereitgestellte Instanz, sowie Punktzahl/Rang/Zertifikat.
 2. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
 3. **Hauptstudium** — welche Module aus Semester 3 und 4 sind bereits abgeschlossen?
    (Für die Kompetenz-Herkunft in der Landkarte. Bekannt sind bisher nur

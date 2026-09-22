@@ -39,12 +39,30 @@ Pro Projekt ca. 5 Minuten. Stichworte reichen, keine ganzen Sätze nötig.
   Web Application Vulnerabilities und Malware, Kryptografie, Security-Mythen,
   Supply-Chain-Angriffe
 
+**Gelöste Challenge-Kategorien** (Angabe von Rayan)
+
+| Kategorie | Schwachstellenklasse |
+|---|---|
+| SQL Injection | Injection |
+| NoSQL Injection | Injection |
+| Cross-Site Scripting (XSS) | Injection |
+| XML External Entity (XXE) | Security Misconfiguration |
+| Insecure Direct Object Reference (IDOR) | Broken Access Control |
+| Path Traversal | Broken Access Control |
+| JWT-Manipulation | Identification & Authentication Failures |
+| TOTP-Bypass | Identification & Authentication Failures |
+| RCE-nahe Exploits | Injection / Software Integrity |
+| Steganografie | Forensik (Open Challenge) |
+
 **Noch von Rayan auszufüllen:**
-- Welche OWASP-Top-10-Challenges hast du gelöst (z. B. XSS, SQL Injection,
-  Broken Access Control)? Gern nur die, an die du dich erinnerst.
-- Wie lief es insgesamt — ungefähre Punktzahl, Rang, Certificate of Engagement erhalten?
-- Welche Open Challenge fandest du am interessantesten, und wie bist du vorgegangen?
-- Vorzeigbar (Screenshot der Scoreboard-Seite, Notizen, Zertifikat):
+- Eigene Instanz: selbst gehostet (z. B. per Docker) oder die im Unterricht
+  bereitgestellte Cloud-Instanz genutzt? Selbst aufgesetzt wäre erwähnenswert.
+- Für zwei bis drei Kategorien je ein Satz: **wie** bist du vorgegangen?
+  (Beispiel: „IDOR — Bestellnummer in der URL hochgezählt und fremde Rechnungen
+  abgerufen.") Diese Sätze machen den Unterschied zwischen einer Liste und
+  belegtem Können.
+- Punktzahl, Rang, Certificate of Engagement erhalten?
+- Vorzeigbar (Scoreboard-Screenshot, Notizen, Zertifikat):
 
 ### Projekt 2
 - Modul / Semester: Projekt 2 (6 ECTS)
