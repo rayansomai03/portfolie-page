@@ -114,6 +114,21 @@ Unternehmensentwicklung, Bernmobil).
   (von Rayan als öffentlich bestätigt, 22.09.2026 — im Portfolio verlinkbar)
 - Schlussbericht und Produktbericht liegen als PDF vor
 
+**Screenshots** (gesichert unter `assets/images/baernway/`)
+
+| Datei | Screen | Belegt |
+|---|---|---|
+| `01-onboarding.webp` | Willkommen, SwissPass-Login oder Gastmodus | Niederschwelliger Einstieg, Gastmodus ohne Konto |
+| `02-dashboard.webp` | Startscreen mit „Fahrt starten"-Slider, Schnellzugriff, letzte Fahrt | Start-Stopp-Kernidee, CO₂ pro Fahrt |
+| `03-fahrtenuebersicht.webp` | Wochenstatistik (43.4 km, 12 Fahrten, 11.6 kg CO₂), Fahrtenliste | Aggregation, konsistentes Listen-Pattern |
+| `04-trip-planner.webp` | Von/Nach, Datum und Zeit, häufige Routen | Smart Trip Planner |
+| `05-karte.webp` | Regionale Mobilität mit Anbieterfiltern (ÖV, Velo, Trottinett) | Multimodalität, Publibike/Trottinett/Carsharing |
+
+**Gestalterische Einordnung:** Bärnway nutzt Rot auf Weiss — die Farbwelt von
+Bernmobil und der Stadt Bern. Das steht bewusst im Gegensatz zum dunklen
+Glassmorphism von MysteryBox. Zwei Projekte, zwei völlig verschiedene Designsprachen,
+jeweils passend zum Kontext statt zum persönlichen Geschmack.
+
 Damit ist Bärnway das einzige Projekt mit begehbarem Live-Artefakt. Trotzdem
 werden Screenshots im Repository abgelegt: Figma Sites lassen sich jederzeit
 unveröffentlichen, das Portfolio soll davon nicht abhängen.
