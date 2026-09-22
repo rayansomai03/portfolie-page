@@ -84,7 +84,7 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 | Modul | ECTS | Themenbereich |
 |---|---|---|
 | Digital Enterprise | 6 | Digital Business & AI |
-| Requirements Engineering | 6 | Digital Business & AI |
+| Requirements Engineering | 6 | Digital Business & AI — Projekt Fahrgemeinschafts-App |
 | Business Information Systems | 6 | Digital Business & AI |
 | Grundlagen Digital Business & AI | 6 | Digital Business & AI |
 | Accounting | 6 | Business & Economics |
@@ -129,7 +129,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HypeWear | Projektmanagement | Projekt 1 (WPR1), FS 2025, Viererteam | 38-seitiger Projektauftrag für eine Trend-Shopping-Plattform: Projektstrukturplan, Arbeitspakete, Termin-, Ressourcen- und Kostenplanung, Stakeholder- und Risikoanalyse, Wirtschaftlichkeit. Budget 195'100 CHF, 18 Monate |
 | MedFlow AI | Prozessanalyse | Prozessmanagement (WPRO), HS 2025, Zweierteam | KI-gestützte Erstellung von OP-Berichten in einer Arztpraxis. BPMN-2.0-Modellierung mit vier Lanes, Stakeholder-Interviews, Wertschöpfungsanalyse, IST/SOLL-Vergleich unter Schweizer DSG |
-| Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
+| Fahrgemeinschafts-App | Requirements Engineering | Modul Requirements Engineering, Grundstudium, Teamarbeit | Vollständige Systemanforderungs-Spezifikation nach HERMES-Struktur: Situationsanalyse, morphologischer Kasten mit drei bewerteten Varianten, Use Cases, Satzschablone, User Stories, UML-Diagramme, ISDS-Konzept. Eigener Anteil noch zu bestätigen — die Use Cases sind einem Teammitglied zugeschrieben |
 | Dieses Portfolio | Implementierung | Web Engineering, HS 2026 | Erste Webanwendung ohne Framework und in Einzelarbeit |
 
 ## Offene Fragen an Rayan
@@ -154,14 +154,15 @@ Vertiefungsmodule noch nicht eingerechnet).
    Offen: Screenshots als Sicherung im Repository.
 6. _(geschlossen)_ Projekt 2 ist identisch mit dem Modul Business Case Study
    (WPR2 / BBCS) — das Projekt darin war Bärnway.
-7. **Zuordnung Schulprojekte → Module** — HypeWear gehört zu Projekt 1 (WPR1),
-   MedFlow AI zu Prozessmanagement (WPRO). Offen bleiben **SmartHealth** und die
-   **Fahrgemeinschafts-App**. Hinweis: SmartHealth (KI-gestützte Terminbuchung) ist
-   nicht identisch mit MedFlow AI (KI-gestützte OP-Berichte) — zwei verschiedene
-   Projekte im Gesundheitsbereich.
-10. **Anteile in Teamarbeiten** — bei HypeWear (vier Autoren) ist unklar, welche
-   Kapitel von Rayan stammen. Ohne Zuordnung bleibt es ein Teamprojekt ohne
-   erkennbaren persönlichen Beitrag.
+7. **Zuordnung Schulprojekte → Module** — HypeWear → Projekt 1 (WPR1),
+   MedFlow AI → Prozessmanagement (WPRO), Fahrgemeinschafts-App →
+   Requirements Engineering. Offen bleibt nur noch **SmartHealth**.
+   Hinweis: SmartHealth (KI-gestützte Terminbuchung) ist nicht identisch mit
+   MedFlow AI (KI-gestützte OP-Berichte) — zwei verschiedene Projekte.
+10. **Anteile in Teamarbeiten** — bei HypeWear (vier Autoren) und der
+   Fahrgemeinschafts-App (Use Cases von Josias Odermatt gezeichnet) ist Rayans
+   Anteil nicht aus den Dokumenten ablesbar. Ohne Zuordnung bleiben es
+   Teamprojekte ohne erkennbaren persönlichen Beitrag.
 8. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
 9. **Portrait in höherer Auflösung** — die Version aus dem PDF hat nur 330×630 px
    und wirkt auf hochauflösenden Displays leicht unscharf. Original vorhanden?

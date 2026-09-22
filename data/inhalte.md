@@ -244,12 +244,49 @@ Aufzählung der eigenen Leistung ist stärker und belegbar.
 - Methoden & Werkzeuge: Service Blueprint, IT-Architektur, Usability
 - Vorzeigbar:
 
-### Fahrgemeinschafts-App
-- Modul / Semester:
-- Aufgabe: Systemanalyse und Lösungsdesign
-- Mein Beitrag:
-- Methoden & Werkzeuge: Fokus Datenschutz und Benutzerfreundlichkeit
-- Vorzeigbar:
+### Fahrgemeinschafts-App für Studierende
+- Modul / Semester: **Requirements Engineering** (6 ECTS, Grundstudium)
+- Dokument: „Systemanforderungen" — Spezifikation nach Hochschulvorlage
+  (Template von Reto Schneider), 22 Tabellen, 106 Bearbeitungsstände
+- Aufgabe: Hochschulspezifische Plattform, über die BFH-Studierende Fahrten zum
+  Campus anbieten und finden können. Ziele: Kostenersparnis, weniger Verkehr und
+  CO₂, Entlastung der Parkplatzsituation, soziale Kontakte
+
+**Inhalt der Spezifikation**
+- Situationsanalyse: Problemstellung, Mengen und Häufigkeiten, Datenbestände,
+  Stärken-/Schwächen- und Ursachenanalyse
+- Informationssicherheit und Datenschutz als eigenes Kapitel — ausgehend davon,
+  dass die heutige Organisation über WhatsApp- und Facebook-Gruppen weder
+  zugriffsbeschränkt noch datenschutzkonform ist
+- Systemkontext mit Kontextdiagramm
+- **Morphologischer Kasten** zur Lösungsfindung, daraus drei Varianten,
+  bewertet nach Zielerreichung und Anforderungsabdeckung, mit begründeter Variantenwahl
+- Design-Thinking-Prozess in mehreren Iterationen, MVP-Abgrenzung
+- Use Cases mit Use-Case-Diagramm, Detailanforderungen per **Satzschablone** und
+  **User-Story-Formular**, Qualitätsanforderungen
+- UML: Klassen-, Sequenz-, Aktivitäts- und Zustandsdiagramm
+- Anforderungen zu Betriebskonzept, Systemarchitektur, Migrationskonzept und
+  ISDS-Konzept — die Struktur folgt **HERMES**, das im Glossar auch genannt wird
+
+**Autorschaft — wichtig**
+
+Alle 13 detaillierten Einträge (UC-01 bis UC-07, US-01 bis US-03, QA-01 bis QA-03)
+tragen im Autorenfeld **Josias Odermatt**, ein Teammitglied. Rayans Name erscheint
+im Dokumenttext nicht; in den Dateieigenschaften ist er als letzter Bearbeiter
+eingetragen.
+
+Laut Lebenslauf war sein Beitrag „Systemanalyse & Lösungsdesign mit Fokus auf
+Datenschutz und Benutzerfreundlichkeit" — das entspräche den Kapiteln 3 und 4
+(Situationsanalyse, Lösungsentwicklung, morphologischer Kasten, Varianten) und
+passt genau in die Lücke, die Odermatts Kapitel lassen. **Von Rayan zu bestätigen,
+bevor etwas davon ins Portfolio geht.**
+
+**Anmerkung:** In einer Tabelle stehen noch Beispielinhalte aus der Vorlage
+(„Jede Abteilung kann ihre Events selbständig organisieren"). Falls das Dokument
+je gezeigt wird, vorher bereinigen.
+
+**Vorzeigbar:** DOCX vorhanden. Kontextdiagramm, Use-Case-Diagramm und die
+UML-Diagramme wären als Bild wertvoll.
 
 ### HypeWear — Plattform für virale Modetrends
 - Modul / Semester: **Projekt 1 (WPR1)**, Kompetenznachweis 1, eingereicht 21.05.2025
