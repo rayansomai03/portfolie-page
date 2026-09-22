@@ -62,6 +62,24 @@ scheitert aber später am Laden der JSON-Daten.
 - [`ROADMAP.md`](./ROADMAP.md) — was geplant ist, inklusive Architekturentscheidungen und Risiken
 - [`PROJECT_PROGRESS.md`](./PROJECT_PROGRESS.md) — was tatsächlich umgesetzt ist
 
+## Arbeitsweise und KI-Einsatz
+
+Dieses Projekt entsteht mit Unterstützung von Claude Code als Programmiermentor.
+Der Einsatz wird offen dokumentiert statt verborgen:
+
+- Commits, an denen die KI beteiligt war, tragen eine `Co-Authored-By`-Zeile.
+  Commits ohne diese Zeile stammen ausschliesslich von mir.
+- Komplexe Themen wie die D3.js-Visualisierung entstehen mit Unterstützung und
+  ausführlicher Erklärung; einfachere Teile schreibe ich selbst.
+- Alle **inhaltlichen** Angaben stammen aus meinem Lebenslauf und meinen echten
+  Projekten. Es werden keine Technologien, Projekte oder Erfahrungen erfunden.
+- Technische Entscheidungen und ihre Begründungen sind in
+  [`PROJECT_PROGRESS.md`](./PROJECT_PROGRESS.md) festgehalten — inklusive der
+  Abwägungen, die zu ihnen geführt haben.
+
+Ziel ist nicht, möglichst schnell ein Ergebnis zu erhalten, sondern die
+eingesetzten Techniken zu verstehen und begründen zu können.
+
 ## Kontakt
 
 - E-Mail: rayan.somai@hotmail.com
