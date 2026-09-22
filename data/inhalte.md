@@ -105,10 +105,25 @@ nice to have, nicht eingeplant.
 - Dokumentation: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/
 - Live-Demo: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/demo/
 
-**Noch von Rayan auszufüllen:**
-- **Was war dein Anteil im Viererteam?** Welche Dateien, Features oder Bereiche
-  hast du übernommen? Das ist die einzige offene Frage — ohne sie beschreibt das
-  Portfolio nur das Teamprojekt, nicht deinen Beitrag daran.
+**Eigener Anteil**
+
+Laut Rayan hat er praktisch die gesamte Umsetzung allein erbracht.
+
+*Darstellung im Portfolio:* Es wird beschrieben, **was** Rayan gebaut hat — nicht,
+was die anderen nicht beigetragen haben. Aussagen über die Untätigkeit von
+Teammitgliedern gehören nicht in ein öffentliches Portfolio: sie sind für Aussenstehende
+nicht überprüfbar und wirken auf Personalverantwortliche negativ. Eine konkrete
+Aufzählung der eigenen Leistung ist stärker und belegbar.
+
+*Noch zu konkretisieren* (aus der GitLab-Commit-Historie von `@somar1` ablesbar):
+- Welche Bereiche stammen von dir? Vorschlag zur Gliederung:
+  - Frontend-Architektur (Views, Router, Komponentenstruktur)
+  - Service-Layer (`AuthService.ts`, `LifehackService.ts`, `ContextLifehack.ts`, `AiLifehack.ts`)
+  - Strapi-Backend und Authentifizierung
+  - CI/CD-Pipeline und GitLab Pages
+  - Dokumentation (arc42-Qualitätskriterien, Blog)
+- Anzahl eigener Commits im Verhältnis zum Team — belegt den Anteil sachlich,
+  ohne jemanden zu beschuldigen
 
 ---
 

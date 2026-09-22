@@ -115,7 +115,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 | Projekt | Art | Kontext | Inhalt |
 |---|---|---|---|
 | Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung. Gelöst: Injection (SQL, NoSQL, XSS), XXE, Broken Access Control (IDOR, Path Traversal), Auth-Bypass (JWT, TOTP), RCE-nahe Exploits, Steganografie |
-| MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Eigener Anteil im Team noch zu klären |
+| MysteryBox | **Implementierung** | Software Engineering (WSEG), HS 2025, Semester 3, Viererteam | Vue-3-SPA mit TypeScript und Strapi-Backend: Lifehacks per Klick, JWT-Login, kontextabhängige Inhalte über ipapi.co und Open-Meteo, GitLab CI/CD. Umsetzung laut Rayan praktisch vollständig von ihm erbracht |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
@@ -126,9 +126,11 @@ Vertiefungsmodule noch nicht eingerechnet).
 1. _(geschlossen)_ Cybersecurity-CTF: Vorgehen zu den einzelnen Challenges ist nicht
    mehr erinnerlich. Die Kategorien werden als Modulrückblick dargestellt, ohne
    Detailbeschreibungen einzelner Exploits.
-2. **MysteryBox: eigener Anteil** — was hast du im Viererteam übernommen?
-   Ohne diese Angabe beschreibt das Portfolio ein Teamprojekt, aber nicht deinen
-   Beitrag. Das ist aktuell die wichtigste offene Frage.
+2. **MysteryBox: Anteil konkretisieren** — Rayan hat die Umsetzung praktisch
+   allein erbracht. Für das Portfolio wird das als Aufzählung der eigenen
+   Leistungsbereiche formuliert, nicht als Aussage über die übrigen Teammitglieder.
+   Offen: welche Bereiche genau (Frontend, Service-Layer, Backend, CI/CD, Doku).
+   Aus der GitLab-Commit-Historie von `@somar1` ablesbar.
 3. **MysteryBox: Erreichbarkeit der Links** — sind GitLab-Repository, Doku und
    Demo ohne BFH-Login erreichbar? Im privaten Browserfenster prüfen, bevor wir
    verlinken. Tote Links im Portfolio wirken schlechter als keine Links.
