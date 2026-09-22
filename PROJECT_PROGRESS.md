@@ -118,10 +118,9 @@ Vertiefungsmodule noch nicht eingerechnet).
 
 ## Offene Fragen an Rayan
 
-1. **Cybersecurity-CTF: Vorgehen statt nur Kategorien** — für zwei bis drei der
-   zehn Kategorien je ein Satz zum konkreten Vorgehen. Eine Kategorieliste lässt
-   sich behaupten, ein Vorgehen nicht. Ausserdem offen: selbst gehostete oder
-   bereitgestellte Instanz, sowie Punktzahl/Rang/Zertifikat.
+1. _(geschlossen)_ Cybersecurity-CTF: Vorgehen zu den einzelnen Challenges ist nicht
+   mehr erinnerlich. Die Kategorien werden als Modulrückblick dargestellt, ohne
+   Detailbeschreibungen einzelner Exploits.
 2. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
 3. **Hauptstudium** — welche Module aus Semester 3 und 4 sind bereits abgeschlossen?
    (Für die Kompetenz-Herkunft in der Landkarte. Bekannt sind bisher nur

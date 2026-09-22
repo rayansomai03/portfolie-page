@@ -54,15 +54,20 @@ Pro Projekt ca. 5 Minuten. Stichworte reichen, keine ganzen Sätze nötig.
 | RCE-nahe Exploits | Injection / Software Integrity |
 | Steganografie | Forensik (Open Challenge) |
 
-**Noch von Rayan auszufüllen:**
-- Eigene Instanz: selbst gehostet (z. B. per Docker) oder die im Unterricht
-  bereitgestellte Cloud-Instanz genutzt? Selbst aufgesetzt wäre erwähnenswert.
-- Für zwei bis drei Kategorien je ein Satz: **wie** bist du vorgegangen?
-  (Beispiel: „IDOR — Bestellnummer in der URL hochgezählt und fremde Rechnungen
-  abgerufen.") Diese Sätze machen den Unterschied zwischen einer Liste und
-  belegtem Können.
-- Punktzahl, Rang, Certificate of Engagement erhalten?
-- Vorzeigbar (Scoreboard-Screenshot, Notizen, Zertifikat):
+**Darstellung im Portfolio**
+
+Das Vorgehen zu den einzelnen Challenges ist nicht mehr erinnerlich (Modul lag im
+Frühlingssemester 2026). Die Kategorien werden deshalb als Rückblick auf das Modul
+dargestellt, nicht als jederzeit abrufbare Routine. Formulierung sinngemäss:
+
+> Im CTF des Cybersecurity-Moduls Challenges aus zehn Schwachstellenkategorien gelöst.
+
+Keine Detailbeschreibungen einzelner Exploits, solange sie nicht belegbar sind.
+
+**Optional, falls Zeit und Lust:**
+Juice Shop läuft lokal in wenigen Minuten (`docker run -p 3000:3000 bkimminich/juice-shop`).
+Eine Stunde damit würde ein bis zwei Vorgehensbeschreibungen wieder verfügbar machen —
+nice to have, nicht eingeplant.
 
 ### Projekt 2
 - Modul / Semester: Projekt 2 (6 ECTS)
