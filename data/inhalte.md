@@ -26,12 +26,25 @@ Pro Projekt ca. 5 Minuten. Stichworte reichen, keine ganzen Sätze nötig.
 
 ## Priorität 1 — diese zuerst
 
-### OWASP Juice Shop
-- Modul / Semester: Cybersecurity, Semester 4
-- Aufgabe:
-- Mein Beitrag:
-- Welche Schwachstellen konkret (z. B. XSS, SQL Injection, Broken Authentication):
-- Vorzeigbar:
+### Cybersecurity — CTF-Wettbewerb
+- Modul / Semester: Cybersecurity (3 ECTS), Frühlingssemester 2026, Semester 4
+- Prüfungsform: Capture-the-Flag-Wettbewerb über das ganze Semester.
+  Die gesammelten Punkte bestimmten die Modulnote.
+- Drei Challenge-Typen:
+  - **Quiz Challenges** — Multiple Choice, ab 75 % richtig gab es einen Flag
+  - **Open Challenges** — offene Aufgaben, zu lösen mit Werkzeugen aus den Vorlesungen
+  - **OWASP-Top-10-Challenges** — Ausnutzen von Schwachstellen an einer eigenen
+    Instanz des OWASP Juice Shop, innerhalb eines begrenzten Zeitfensters
+- Themen der Vorlesungen: Grundkonzepte, Security Policies und Design-Prinzipien,
+  Web Application Vulnerabilities und Malware, Kryptografie, Security-Mythen,
+  Supply-Chain-Angriffe
+
+**Noch von Rayan auszufüllen:**
+- Welche OWASP-Top-10-Challenges hast du gelöst (z. B. XSS, SQL Injection,
+  Broken Access Control)? Gern nur die, an die du dich erinnerst.
+- Wie lief es insgesamt — ungefähre Punktzahl, Rang, Certificate of Engagement erhalten?
+- Welche Open Challenge fandest du am interessantesten, und wie bist du vorgegangen?
+- Vorzeigbar (Screenshot der Scoreboard-Seite, Notizen, Zertifikat):
 
 ### Projekt 2
 - Modul / Semester: Projekt 2 (6 ECTS)

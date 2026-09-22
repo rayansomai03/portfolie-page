@@ -89,7 +89,7 @@ Diese Module sind bestanden und belegen die oben genannten Kompetenzen.
 | Economics | 3 | Business & Economics |
 | Sustainable Business | 3 | Business & Economics |
 | Software Engineering | 6 | Information Technology |
-| Cybersecurity | 3 | Information Technology (enthielt OWASP Juice Shop) |
+| Cybersecurity | 3 | Information Technology, FS 2026 — benotet über CTF-Wettbewerb |
 | Projekt 2 | 6 | Projekte & Praxis |
 
 **Vertiefung**
@@ -108,7 +108,7 @@ Vertiefungsmodule noch nicht eingerechnet).
 **Projekte & Module**
 | Projekt | Art | Kontext | Inhalt |
 |---|---|---|---|
-| OWASP Juice Shop | Praktisch | BFH, Semester 4 | Ausnutzen von Schwachstellen einer bewusst verwundbaren Webanwendung |
+| Cybersecurity CTF | Praktisch | BFH, FS 2026, Semester 4 | Capture-the-Flag-Wettbewerb als Prüfungsleistung: Quiz-, Open- und OWASP-Top-10-Challenges an einer eigenen Juice-Shop-Instanz. Persönliche Ergebnisse noch ausstehend |
 | SmartHealth | Konzept & Analyse | Schulprojekt | App-Konzept für KI-gestützte Arztterminbuchung; Service Blueprint, IT-Architektur, Usability |
 | HyperWear | Konzept & Planung | Schulprojekt | E-Commerce-Konzept, Projektplanung, Product Backlog |
 | Fahrgemeinschafts-App | Analyse & Design | Schulprojekt | Systemanalyse und Lösungsdesign mit Fokus Datenschutz und Benutzerfreundlichkeit |
@@ -116,9 +116,11 @@ Vertiefungsmodule noch nicht eingerechnet).
 
 ## Offene Fragen an Rayan
 
-1. **OWASP Juice Shop** — welche Schwachstellen hast du konkret gelöst?
-   (Für die Projektdetailansicht in Woche 4. Ohne Angaben bleibt es bei der
-   allgemeinen Beschreibung — es wird nichts dazuerfunden.)
+1. **Cybersecurity-CTF: eigene Ergebnisse** — welche OWASP-Challenges gelöst,
+   welche Punktzahl/Rang, Certificate of Engagement erhalten?
+   Der Modulaufbau ist dokumentiert, Rayans persönliche Leistung noch nicht.
+   Ohne Angaben beschreibt das Portfolio nur das Modul, nicht seine Ergebnisse —
+   es wird nichts dazuerfunden.
 2. **Schulprojekte** — Rayan prüft, ob Dokumente oder Screenshots noch vorhanden sind
 3. **Hauptstudium** — welche Module aus Semester 3 und 4 sind bereits abgeschlossen?
    (Für die Kompetenz-Herkunft in der Landkarte. Bekannt sind bisher nur
