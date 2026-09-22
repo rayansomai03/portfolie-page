@@ -1,107 +1,138 @@
 # ROADMAP — Beyond the Portfolio: My Interactive Developer Journey
 
-> Diese Datei beschreibt den **geplanten** Entwicklungsverlauf des Projekts.
-> Der **tatsächliche** Fortschritt wird separat in [`PROJECT_PROGRESS.md`](./PROJECT_PROGRESS.md) dokumentiert.
-> Massgeblich für den echten Stand des Codes ist immer die Git-History.
+> Diese Datei beschreibt den **geplanten** Entwicklungsverlauf.
+> Der **tatsächliche** Fortschritt steht in [`PROJECT_PROGRESS.md`](./PROJECT_PROGRESS.md).
+> Massgeblich für den echten Codestand ist immer die Git-History.
 
-**Zeitraum:** 22. September 2026 – 10. Januar 2027 (ca. 16 Wochen, 90–140 Stunden)
-**Kontext:** Einzelarbeit im Modul Web Engineering, zusätzlich als Bewerbungsportfolio nutzbar.
+**Modul:** Web Engineering, BFH Bern (Dozent: Syrian Hadad)
+**Gewichtung:** Einzelarbeit 60 % der Modulnote, Moodle-Prüfung 40 %
+**Entwicklungsstart:** 22. September 2026
+
+## ⚠️ Terminrisiko (offen, muss geklärt werden)
+
+Die Moduleinführung enthält widersprüchliche Angaben:
+
+| Quelle | Angabe |
+|---|---|
+| Folie „Informationen zu den Prüfungen" | Einzelarbeit **18.02.2026 – 29.05.2026** |
+| Folie „Termine" | Unterricht **18.09.2026 – 11.12.2026** (letzte Session: „Testautomatisierungen und Abschluss") |
+| Ursprüngliche Annahme | Abgabe Januar 2027 |
+
+Der Zeitraum 18.02.–29.05.2026 stammt vermutlich aus dem Frühlingssemester und wurde
+in den Folien nicht aktualisiert. Belegt ist nur, dass der Unterricht am **11.12.2026** endet.
+Eine Abgabe im Januar 2027 ist damit **nicht bestätigt**.
+
+**Konsequenz für die Planung:** Wir planen so, dass am **11. Dezember 2026** eine
+vollständig abgabefähige Version existiert. Der Zeitraum danach bis Januar ist Puffer
+für Feinschliff und die optionale echte KI-Anbindung — nicht für Kernfunktionen.
+Diese Planung ist in beiden Fällen sicher.
+
+**To-do:** Abgabetermin bei Syrian Hadad (syrian.hadad@bfh.ch) oder auf Moodle bestätigen lassen.
+
+## Bewertungskriterien (aus der Moduleinführung)
+
+| # | Kriterium | Punkte | Wie unser Konzept das adressiert |
+|---|---|---|---|
+| 1 | **Erreichbarkeit** auf GitHub Pages | **K.-o.** | Live-Version bereits in Woche 1, danach durchgehend erreichbar |
+| 2 | Responsivität | 15 | Mobile-First-CSS, Media Queries, Listenansicht der Landkarte, keine horizontalen Scrollbars |
+| 3 | Codequalität & Komplexität | 20 | ES-Module, Trennung HTML/CSS/JS, D3.js, GitHub-API mit Caching, dynamisches Rendering aus JSON |
+| 4 | Commit-History | 10 | Regelmässige Conventional Commits über die gesamte Projektdauer ab 22.09. |
+| 5 | Gestaltung & Funktionalität | 15 | Konsistentes Designsystem, klare Navigation, drei sinnvoll integrierte Hauptfunktionen |
+| | **Total** | **60** | |
+
+Für die vollen 20 Punkte bei Kriterium 3 nennt die Bewertung explizit:
+*„Komplexe API-Integrationen: Datenkombination", „Effiziente Datenverarbeitung: Caching,
+Pagination", „Komplexe Third-Party-Integrationen: z. B. D3.js für Diagramme"*.
+Genau diese drei Punkte sind der Kern unseres Konzepts.
+
+Für die vollen 10 Punkte bei Kriterium 4 gilt: *„Gleichmässig über die gesamte
+Projektdauer verteilt"* — Commits ab heute, nicht gebündelt am Ende.
 
 ## Projektvision
 
-Drei miteinander verknüpfte Hauptfunktionen auf einer gemeinsamen Datenbasis:
+Drei verknüpfte Hauptfunktionen auf **einer** gemeinsamen Datenbasis:
 
-1. **Interaktive Lebensreise** – animierte Timeline meiner persönlichen/beruflichen Entwicklung
-2. **Interaktive Entwickler-Landkarte** – D3.js-Netzwerkvisualisierung von Technologien & Projekten
-3. **Persönlicher KI-Assistent** – Chatbot, der Fragen anhand echter Portfolio-Daten beantwortet
+1. **Interaktive Lebensreise** — animierte Timeline des Werdegangs
+2. **Interaktive Entwickler-Landkarte** — D3.js-Netzwerk aus Kompetenzen & Projekten
+3. **Persönlicher KI-Assistent** — Chatbot, der aus den echten Portfolio-Daten antwortet
 
-Alle drei greifen auf dieselben JSON-Datenquellen (`data/profile.json`, `data/projects.json`, `data/timeline.json`) zu, damit ein neues Projekt nicht an drei Stellen im Code gepflegt werden muss.
+Gemeinsame Quellen: `data/profile.json`, `data/projects.json`, `data/timeline.json`.
+Ein neues Projekt wird an *einer* Stelle gepflegt und erscheint in allen drei Funktionen.
 
-## Technische Architektur (Entscheidungen aus der Vorbereitungsphase)
+### Inhaltliche Leitlinie: Ehrlichkeit als Stärke
+
+Der Lebenslauf zeigt Schwerpunkte in **Analyse, Konzeption und Datenbanken**
+(Requirements Engineering, BPMN/UML, R/SQL, Python, Scrum/ITIL) — nicht in Webentwicklung.
+Die drei Schulprojekte (SmartHealth, HyperWear, Fahrgemeinschafts-App) sind
+Konzept- und Analysearbeiten, keine Code-Repositories.
+
+Die Landkarte unterscheidet deshalb sauber zwischen:
+
+- **Methoden- & Analysekompetenz** (Requirements Engineering, BPMN, UML, Scrum, ITIL)
+- **Technische Umsetzung** (Python, R, SQL — und ab jetzt HTML, CSS, JavaScript, Git)
+
+Dieses Portfolio ist das erste echte Webentwicklungsprojekt. Das ist keine Schwäche,
+sondern die Erzählung: Die Lebensreise endet dort, wo die Seite selbst entsteht.
+Es werden keine Projekte, Technologien oder Erfahrungen erfunden.
+
+## Technische Architektur
 
 | Bereich | Entscheidung | Begründung |
 |---|---|---|
-| Frontend | Reines HTML5/CSS3/JS (ES-Module, kein Build-Zwang) | GitHub Pages ist statisch; ES-Module laufen direkt im Browser ohne Bundler |
-| Animation | GSAP (+ ScrollTrigger) via CDN | Standard für performante Scroll-Animationen |
-| Visualisierung | D3.js (Force-Directed Graph) via CDN | Flexibel genug für Netzwerkstruktur Technologien↔Projekte |
-| Daten | Statische JSON-Dateien unter `data/` | Zentral pflegbar, von allen drei Hauptfunktionen nutzbar |
-| GitHub-Repos | **Build-Time-Fetch** über GitHub Action statt Live-Client-Fetch | Vermeidet das 60-Requests/Stunde-Limit der unauthentifizierten GitHub-API pro Besucher; Ergebnis wird als `data/github-cache.json` committet und im Frontend nur gelesen |
-| KI-Backend | Separater Serverless-Endpunkt (z. B. Cloudflare Worker) statt GitHub Pages | API-Schlüssel dürfen nie im Frontend liegen; GitHub Pages kann keinen Server ausführen |
-| Tests | Vitest/Jest (Unit) + GitHub Actions (CI) | Deckt Datenverarbeitung, Filter, Chatbot-Logik ab |
-| Fallback KI | Regelbasierte Antwortlogik bleibt immer aktiv | Funktioniert auch, falls die echte KI-Anbindung zeitlich nicht mehr passt |
+| Frontend | Vanilla HTML5/CSS3/JS mit ES-Modulen, kein Bundler | GitHub Pages ist statisch; Frameworks bringen laut Bewertung keinen Vorteil |
+| Animation | GSAP + ScrollTrigger (CDN) | Performante Scroll-Animationen |
+| Visualisierung | D3.js Force-Directed Graph (CDN) | In der Bewertung namentlich als Beispiel für 20 Punkte genannt |
+| Daten | Statische JSON-Dateien unter `data/` | Zentral pflegbar, von allen drei Funktionen genutzt |
+| GitHub-Repos | **Build-Time-Fetch** per GitHub Action → `data/github-cache.json` | Unauthentifizierte GitHub-API: nur 60 Requests/h pro IP. In einem Schul-WLAN teilen sich alle eine IP — Live-Fetch wäre bei der Bewertung leer |
+| KI-Backend | Separater Serverless-Endpunkt (z. B. Cloudflare Worker) | GitHub Pages kann keine Secrets halten; API-Keys gehören nie ins Frontend |
+| Tests | Vitest + GitHub Actions | Datenverarbeitung, Filter, Chatbot-Logik |
+| Fallback | Regelbasierte Assistenten-Logik bleibt dauerhaft aktiv | Abgabe funktioniert auch ohne echte KI-API |
 
-### Identifizierte Risiken
+### Risiken
 
-- **GitHub-API-Limit:** clientseitige Live-Abfragen sind bei 60 Requests/h/IP für einen öffentlichen Portfolio-Besuch riskant → gelöst durch Build-Time-Caching (siehe oben).
-- **KI-Anbindung & Geheimnisse:** GitHub Pages kann keine Secrets sicher halten → erfordert externen Backend-Dienst; muss früh genug (Woche 12) evaluiert werden, sonst bleibt Stufe 2 (regelbasiert) die Abgabeversion.
-- **D3.js auf Mobilgeräten:** Force-Graphs sind touch- und performance-kritisch → alternative Listenansicht für kleine Screens ist von Anfang an eingeplant (nicht optional).
-- **Zwei schwere Libraries (GSAP + D3):** Ladezeiten im Auge behalten, `defer`/`async` nutzen, Animationen bei `prefers-reduced-motion` reduzieren.
+| Risiko | Schweregrad | Gegenmassnahme |
+|---|---|---|
+| Abgabetermin unklar (siehe oben) | **Hoch** | Abgabefähig ab 11.12.2026 planen; Termin beim Dozenten klären |
+| GitHub-API-Limit (60/h/IP) | Mittel | Build-Time-Caching statt Client-Fetch |
+| API-Keys im Frontend | **Hoch** (Sicherheit) | KI nur über externes Backend; Stufe 2 bleibt Fallback |
+| D3-Graph auf Touchscreens | Mittel | Listenansicht als Pflichtbestandteil, nicht als Option |
+| GSAP + D3 Ladezeit | Niedrig | `defer`, CDN, `prefers-reduced-motion` respektieren |
+| Zeitdruck durch Nebenjob/Studium | Mittel | Kernfunktionen zuerst, Erweiterungen strikt danach |
 
-## Wochenplan
+## Wochenplan (Kernphase bis 11.12.2026)
 
-### Woche 1 — Projektstart und GitHub (22.–27. Sept)
-- Projektanforderungen verstehen, Repository-Struktur anlegen
-- README und Roadmap anlegen
-- HTML-Grundgerüst entwickeln
-- GitHub Pages einrichten, erste öffentliche Version veröffentlichen
+Die Unterrichtstermine sind eingetragen — mehrere Themen werden im Unterricht
+behandelt, kurz bevor wir sie brauchen.
 
-### Woche 2 — Designsystem und Navigation (28. Sept – 4. Okt)
-- Farbschema & Typografie als CSS-Tokens definieren
-- Wiederverwendbare CSS-Komponenten
-- Responsive Navigation + mobiles Menü
+| Woche | Zeitraum | Ziel |
+|---|---|---|
+| **1** | 22.–27.09 | Projektstruktur, HTML-Grundgerüst, **GitHub Pages live** |
+| **2** | 28.09.–04.10 | Designsystem (Farben, Typografie, Tokens), responsive Navigation *(Unterricht 02.10.)* |
+| **3** | 05.–11.10 | Hero-Section, Über-mich, Datenbasis `profile.json` |
+| **4** | 12.–18.10 | Projektübersicht dynamisch aus `projects.json`, Filter *(Unterricht 16.10.: Web-Design & UX)* |
+| **5** | 19.–25.10 | Lebensreise: Datenmodell, Timeline-Layout, Rendering |
+| **6** | 26.10.–01.11 | Lebensreise: GSAP-Scroll-Animationen, Detailansichten, Barrierefreiheit *(Unterricht 30.10.: Architektur & APIs)* |
+| **7** | 02.–08.11 | Entwickler-Landkarte: D3-Integration, Graph aus echten Daten |
+| **8** | 09.–15.11 | Landkarte: Zoom/Pan, Filter, **Listenansicht** für Mobile *(Unterricht 13.11.: Sicherheit, asynchron)* |
+| **9** | 16.–22.11 | GitHub-API: Action, Caching, Lade-/Fehlerzustände, Verknüpfung mit Projekten |
+| **10** | 23.–29.11 | KI-Assistent: Chatoberfläche, Nachrichten, vordefinierte Fragen *(Unterricht 27.11.: APIs Hands-On)* |
+| **11** | 30.11.–06.12 | KI-Assistent: regelbasierte Antwortlogik aus Portfolio-Daten, Navigation aus Antworten |
+| **12** | 07.–11.12 | Integration aller drei Funktionen, Responsive-Feinschliff, Tests, **abgabefähige Version** *(Unterricht 11.12.: Testautomatisierung & Abschluss)* |
 
-### Woche 3 — Startseite und Animationen (5.–11. Okt)
-- Hero-Section, persönliche Vorstellung
-- Erste Animationen, Scroll-Navigation
-- Mobile Darstellung testen
+## Pufferphase (12.12.2026 – 10.01.2027)
 
-### Woche 4 — Lebensreise: Grundstruktur (12.–18. Okt)
-- Timeline-Datenmodell (`timeline.json`)
-- Timeline-Layout, dynamisches Rendering
+Nur falls der Abgabetermin tatsächlich im Januar liegt — sonst entfällt dieser Teil.
 
-### Woche 5 — Lebensreise: Interaktivität (19.–25. Okt)
-- Scroll-Animationen (GSAP), Detailansichten
-- Projektverlinkung, Barrierefreiheit
-
-### Woche 6 — Gemeinsame Projekt-Datenbasis (26. Okt – 1. Nov)
-- `projects.json`, Projektübersicht, Filter, Detailansichten
-
-### Woche 7 — Entwickler-Landkarte: Grundlagen (2.–8. Nov)
-- D3.js-Integration, Knoten/Kanten aus echten Daten generieren
-
-### Woche 8 — Entwickler-Landkarte: Interaktion (9.–15. Nov)
-- Zoom/Pan, Technologie-Filter, mobile Bedienbarkeit
-
-### Woche 9 — GitHub-API-Integration (16.–22. Nov)
-- Build-Time-Fetch der Repos, Caching, Fehler-/Ladezustände
-- Verknüpfung mit Portfolio-Projekten
-
-### Woche 10 — KI-Assistent: Chatoberfläche (23.–29. Nov)
-- Chatfenster, Nachrichteneingabe/-verlauf, vordefinierte Fragen
-
-### Woche 11 — KI-Assistent: Antwortlogik (30. Nov – 6. Dez)
-- Regelbasierte Wissensbasis aus Portfolio-Daten
-- Navigation aus Chatantworten, Umgang mit unbekannten Fragen
-
-### Woche 12 — Echte KI-Anbindung (7.–13. Dez)
-- Auswahl KI-Dienst, sicherer Backend-Endpunkt
-- Frontend-Backend-Verbindung, Rate-Limiting
-
-### Woche 13 — Integration aller Hauptfunktionen (14.–20. Dez)
-- Lebensreise ↔ Landkarte ↔ Assistent verknüpfen
-- Gemeinsame Datenbasis konsolidieren, End-to-End-Flows testen
-
-### Woche 14 — Responsive Design & Performance (21.–27. Dez)
-- Mobile/Tablet-Feinschliff, Bild-/Animationsoptimierung
-
-### Woche 15 — Automatisierte Tests (28. Dez – 3. Jan)
-- Unit-Tests für Daten/Filter/Chatbot, GitHub Actions CI
-
-### Woche 16 — Abschluss und Veröffentlichung (4.–10. Jan)
-- Gesamttest, Dokumentation, finale Veröffentlichung, Abgabe
+- Echte KI-Anbindung (Stufe 3) über sicheres Backend
+- Testabdeckung ausbauen, CI-Workflow verfeinern
+- Performance-Optimierung, Lighthouse-Durchlauf
+- README und technische Dokumentation abschliessen
 
 ## Priorisierung bei Zeitdruck
 
-1. Öffentlich erreichbare, funktionierende Grundversion (jederzeit Pflicht)
-2. Lebensreise, Landkarte, KI-Assistent als **Grundfunktionen** vor Erweiterungen
-3. Visuelle Erweiterungen und die echte KI-API-Anbindung sind die ersten Kandidaten für eine Verschiebung, falls die Zeit knapp wird — die regelbasierte Assistenten-Version bleibt in jedem Fall funktionsfähig
+1. **Öffentlich erreichbare Seite** — K.-o.-Kriterium, hat immer Vorrang
+2. Responsivität und saubere Codestruktur — 35 der 60 Punkte
+3. Grundfunktionen der drei Hauptfeatures
+4. Erweiterungen, Animationsdetails, echte KI-API — zuerst streichbar
+
+Die regelbasierte Assistenten-Version bleibt in jedem Szenario funktionsfähig.
