@@ -7,27 +7,22 @@
 **Modul:** Web Engineering, BFH Bern (Dozent: Syrian Hadad)
 **Gewichtung:** Einzelarbeit 60 % der Modulnote, Moodle-Prüfung 40 %
 **Entwicklungsstart:** 22. September 2026
+**Abgabe:** 11. Dezember 2026
 
-## ⚠️ Terminrisiko (offen, muss geklärt werden)
+## Abgabetermin: 11. Dezember 2026 (bestätigt)
 
-Die Moduleinführung enthält widersprüchliche Angaben:
+Die Angabe „18.02.–29.05.2026" auf der Prüfungsfolie stammte aus einem früheren Semester.
+Massgeblich ist der letzte Unterrichtstermin: **11.12.2026**.
 
-| Quelle | Angabe |
-|---|---|
-| Folie „Informationen zu den Prüfungen" | Einzelarbeit **18.02.2026 – 29.05.2026** |
-| Folie „Termine" | Unterricht **18.09.2026 – 11.12.2026** (letzte Session: „Testautomatisierungen und Abschluss") |
-| Ursprüngliche Annahme | Abgabe Januar 2027 |
+**Das bedeutet 12 Wochen ab dem 22.09.2026 — ohne Puffer.** Die ursprünglich
+angenommene Januar-Reserve existiert nicht. Konsequenzen:
 
-Der Zeitraum 18.02.–29.05.2026 stammt vermutlich aus dem Frühlingssemester und wurde
-in den Folien nicht aktualisiert. Belegt ist nur, dass der Unterricht am **11.12.2026** endet.
-Eine Abgabe im Januar 2027 ist damit **nicht bestätigt**.
-
-**Konsequenz für die Planung:** Wir planen so, dass am **11. Dezember 2026** eine
-vollständig abgabefähige Version existiert. Der Zeitraum danach bis Januar ist Puffer
-für Feinschliff und die optionale echte KI-Anbindung — nicht für Kernfunktionen.
-Diese Planung ist in beiden Fällen sicher.
-
-**To-do:** Abgabetermin bei Syrian Hadad (syrian.hadad@bfh.ch) oder auf Moodle bestätigen lassen.
+- Zielzustand **feature-complete am 06.12.2026** (Ende Woche 11), damit die letzte
+  Woche echter Puffer für Tests, Feinschliff und Unvorhergesehenes bleibt.
+- Die **echte KI-Anbindung (Stufe 3) ist ein Stretch Goal**, kein Planbestandteil.
+  Die regelbasierte Version aus Stufe 2 ist die Abgabeversion.
+- Verzögerungen werden nicht „hinten aufgeholt" — sie führen sofort zur Streichung
+  von Erweiterungen aus der Prioritätenliste am Ende dieses Dokuments.
 
 ## Bewertungskriterien (aus der Moduleinführung)
 
@@ -65,6 +60,13 @@ Der Lebenslauf zeigt Schwerpunkte in **Analyse, Konzeption und Datenbanken**
 (Requirements Engineering, BPMN/UML, R/SQL, Python, Scrum/ITIL) — nicht in Webentwicklung.
 Die drei Schulprojekte (SmartHealth, HyperWear, Fahrgemeinschafts-App) sind
 Konzept- und Analysearbeiten, keine Code-Repositories.
+
+Eine Ausnahme ist das **Cybersecurity-Modul mit OWASP Juice Shop**: dort wurden
+Schwachstellen einer bewusst verwundbaren Webanwendung praktisch ausgenutzt
+(u. a. XSS, SQL Injection, Broken Authentication). Das ist echte, praktische
+Web-Erfahrung — aus der Angreiferperspektive statt aus der Bauperspektive — und
+passt direkt zur Unterrichtseinheit „Sicherheit und Authentifizierung" vom 13.11.
+Dieses Modul gehört prominent in Landkarte und Lebensreise.
 
 Die Landkarte unterscheidet deshalb sauber zwischen:
 
@@ -116,17 +118,18 @@ behandelt, kurz bevor wir sie brauchen.
 | **8** | 09.–15.11 | Landkarte: Zoom/Pan, Filter, **Listenansicht** für Mobile *(Unterricht 13.11.: Sicherheit, asynchron)* |
 | **9** | 16.–22.11 | GitHub-API: Action, Caching, Lade-/Fehlerzustände, Verknüpfung mit Projekten |
 | **10** | 23.–29.11 | KI-Assistent: Chatoberfläche, Nachrichten, vordefinierte Fragen *(Unterricht 27.11.: APIs Hands-On)* |
-| **11** | 30.11.–06.12 | KI-Assistent: regelbasierte Antwortlogik aus Portfolio-Daten, Navigation aus Antworten |
-| **12** | 07.–11.12 | Integration aller drei Funktionen, Responsive-Feinschliff, Tests, **abgabefähige Version** *(Unterricht 11.12.: Testautomatisierung & Abschluss)* |
+| **11** | 30.11.–06.12 | KI-Assistent: regelbasierte Antwortlogik, Integration aller drei Funktionen → **feature-complete** |
+| **12** | 07.–11.12 | Puffer: Tests, Responsive-Feinschliff, Dokumentation, **Abgabe am 11.12.** *(Unterricht 11.12.: Testautomatisierung & Abschluss)* |
 
-## Pufferphase (12.12.2026 – 10.01.2027)
+## Stretch Goals (nur bei Zeitvorsprung)
 
-Nur falls der Abgabetermin tatsächlich im Januar liegt — sonst entfällt dieser Teil.
+Diese Punkte sind **nicht** eingeplant und werden nur umgesetzt, wenn wir vor dem
+Zeitplan liegen. Keiner davon ist für die Bewertung erforderlich.
 
 - Echte KI-Anbindung (Stufe 3) über sicheres Backend
-- Testabdeckung ausbauen, CI-Workflow verfeinern
-- Performance-Optimierung, Lighthouse-Durchlauf
-- README und technische Dokumentation abschliessen
+- Erweiterte Testabdeckung, verfeinerter CI-Workflow
+- Lighthouse-Optimierung
+- Mehrsprachigkeit Deutsch/Französisch (beides Muttersprachen)
 
 ## Priorisierung bei Zeitdruck
 
