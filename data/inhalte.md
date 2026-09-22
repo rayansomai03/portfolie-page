@@ -100,6 +100,18 @@ nice to have, nicht eingeplant.
   Operability (Pflicht), Usability und Modularity (selbstgewählt)
 - Single-Page-Application, dunkles UI mit Glassmorphism
 
+**Zustand der Demo** (geprüft 22.09.2026 anhand von Screenshots)
+
+Die Anwendung läuft und ist inhaltlich vollständig: Landing-Page mit Problem-/
+Lösungsabschnitt, Feature-Übersicht, Live-API-Demos, Favoriten, Login/Logout.
+Gamification ist funktionsfähig (Level 3, 150/200 XP, Badges) — im README noch
+als „vorbereitet" beschrieben.
+
+Bemerkenswert für die Darstellung: Bei verweigertem Standortzugriff zeigt die App
+„Standortzugriff verweigert" und liefert einen allgemeinen Lifehack statt zu
+scheitern. Sichtbare Fehlerbehandlung mit sinnvollem Rückfall — genau das, was
+das Bewertungsraster unter „verständliche Fehlermeldungen" versteht.
+
 **Links** (vor Verlinkung im Portfolio auf öffentliche Erreichbarkeit prüfen)
 - Repository: https://gitlab.ti.bfh.ch/dsl-student-projects/wseg-25-hs/mysterybox
 - Dokumentation: https://dsl-student-projects.pages.ti.bfh.ch/wseg-25-hs/mysterybox/
